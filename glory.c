@@ -58,7 +58,7 @@ int ModoTrabajo;
 int Counter;
 
 //Mensaje de Version...
-char MsgVersion[] = "Version : glory_2.3";
+char MsgVersion[] = "Version : glory_2.3.1";
 //Mensaje de Personalidad...
 char MsgPersonalidad1[] = "bag mode GLORY glory_2.01";
 char MsgPersonalidad2[] = "new bag mode GLORY glory_2.1";
@@ -165,6 +165,30 @@ void main(void) {
         USART_EnviaMsg(".");
         __delay_ms(30);
     }    
+    //Mensaje al encender la Placa
+   USART_EnviaMsg(" ");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg("   IOBOARD SCREW !!!");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg("********************************");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg("  -By PERMAQUIM SPA");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg(" ");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg("  -For BRINKS CHILE");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg(" ");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg("   -Version: 2.3.1");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg("********************************");
+   USART_EnviaMsg(CRLF);
+   USART_EnviaMsg(" ");
+   USART_EnviaMsg(CRLF);
+   __delay_ms(30);
+   
+   
     //Cierro la exclusa...
     ValorStateShutter=3;   //Inicia cierre. 
     LATE0=1;    //J21 Pin1 alto.
