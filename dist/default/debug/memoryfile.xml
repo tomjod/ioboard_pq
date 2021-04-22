@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/debug/ioboard_escrow-master.debug.hex">
+  <executable name="dist/default/debug\ioboard_pq.debug.hex">
     <memory name="program">
       <units>bytes</units>
       <length>32768</length>
-      <used>15257</used>
-      <free>17511</free>
+      <used>12225</used>
+      <free>20543</free>
     </memory>
     <memory name="data">
       <units>bytes</units>

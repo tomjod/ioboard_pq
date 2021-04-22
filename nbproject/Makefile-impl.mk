@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ioboard_escrow-master
+PROJECTNAME=ioboard_pq
 
 # Active Configuration
 DEFAULTCONF=default

@@ -1,236 +1,224 @@
 Version 4.0 HI-TECH Software Intermediate Code
 [p mainexit ]
-"6086 /opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6086: extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
+"6086 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6086: extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
 [v _OSCCON `Vuc ~T0 @X0 0 e@4051 ]
 "4691
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4691: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4691: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
 [v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
 "1478
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1478: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1478: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
 [v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
 "1700
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1700: extern volatile unsigned char TRISB __attribute__((address(0xF93)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1700: extern volatile unsigned char TRISB __attribute__((address(0xF93)));
 [v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
 "1922
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1922: extern volatile unsigned char TRISC __attribute__((address(0xF94)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1922: extern volatile unsigned char TRISC __attribute__((address(0xF94)));
 [v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
 "2144
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2144: extern volatile unsigned char TRISD __attribute__((address(0xF95)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2144: extern volatile unsigned char TRISD __attribute__((address(0xF95)));
 [v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
 "2366
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2366: extern volatile unsigned char TRISE __attribute__((address(0xF96)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2366: extern volatile unsigned char TRISE __attribute__((address(0xF96)));
 [v _TRISE `Vuc ~T0 @X0 0 e@3990 ]
 "6169
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6169: extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6169: extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
 [v _T0CON `Vuc ~T0 @X0 0 e@4053 ]
 "6266
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6266: extern volatile unsigned char TMR0H __attribute__((address(0xFD7)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6266: extern volatile unsigned char TMR0H __attribute__((address(0xFD7)));
 [v _TMR0H `Vuc ~T0 @X0 0 e@4055 ]
 "6259
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6259: extern volatile unsigned char TMR0L __attribute__((address(0xFD6)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6259: extern volatile unsigned char TMR0L __attribute__((address(0xFD6)));
 [v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
 "8498
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8498: extern volatile __bit TMR0IF __attribute__((address(0x7F92)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8498: extern volatile __bit TMR0IF __attribute__((address(0x7F92)));
 [v _TMR0IF `Vb ~T0 @X0 0 e@32658 ]
 "8495
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8495: extern volatile __bit TMR0IE __attribute__((address(0x7F95)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8495: extern volatile __bit TMR0IE __attribute__((address(0x7F95)));
 [v _TMR0IE `Vb ~T0 @X0 0 e@32661 ]
 "5531
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5531: extern volatile unsigned char T1CON __attribute__((address(0xFCD)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5531: extern volatile unsigned char T1CON __attribute__((address(0xFCD)));
 [v _T1CON `Vuc ~T0 @X0 0 e@4045 ]
 "5648
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5648: extern volatile unsigned char TMR1H __attribute__((address(0xFCF)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5648: extern volatile unsigned char TMR1H __attribute__((address(0xFCF)));
 [v _TMR1H `Vuc ~T0 @X0 0 e@4047 ]
 "5641
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5641: extern volatile unsigned char TMR1L __attribute__((address(0xFCE)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5641: extern volatile unsigned char TMR1L __attribute__((address(0xFCE)));
 [v _TMR1L `Vuc ~T0 @X0 0 e@4046 ]
 "5316
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5316: extern volatile unsigned char T2CON __attribute__((address(0xFCA)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5316: extern volatile unsigned char T2CON __attribute__((address(0xFCA)));
 [v _T2CON `Vuc ~T0 @X0 0 e@4042 ]
 "5414
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5414: extern volatile unsigned char PR2 __attribute__((address(0xFCB)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5414: extern volatile unsigned char PR2 __attribute__((address(0xFCB)));
 [v _PR2 `Vuc ~T0 @X0 0 e@4043 ]
 "7607
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7607: extern volatile __bit LATA2 __attribute__((address(0x7C4A)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7607: extern volatile __bit LATA2 __attribute__((address(0x7C4A)));
 [v _LATA2 `Vb ~T0 @X0 0 e@31818 ]
 "7652
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7652: extern volatile __bit LATC1 __attribute__((address(0x7C59)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7652: extern volatile __bit LATC1 __attribute__((address(0x7C59)));
 [v _LATC1 `Vb ~T0 @X0 0 e@31833 ]
 "7655
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7655: extern volatile __bit LATC2 __attribute__((address(0x7C5A)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7655: extern volatile __bit LATC2 __attribute__((address(0x7C5A)));
 [v _LATC2 `Vb ~T0 @X0 0 e@31834 ]
 "639
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 639:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 639:     struct {
 [s S29 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S29 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
 "649
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 649:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 649:     struct {
 [s S30 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S30 . PSP0 PSP1 PSP2 PSP3 PSP4 PSP5 PSP6 PSP7 ]
 "659
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 659:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 659:     struct {
 [s S31 :5 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S31 . . P1B P1C P1D ]
 "665
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 665:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 665:     struct {
 [s S32 :7 `uc 1 :1 `uc 1 ]
 [n S32 . . SS2 ]
 "638
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 638: typedef union {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 638: typedef union {
 [u S28 `S29 1 `S30 1 `S31 1 `S32 1 ]
 [n S28 . . . . . ]
 "670
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 670: extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF83)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 670: extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF83)));
 [v _PORTDbits `VS28 ~T0 @X0 0 e@3971 ]
-"22 glory.c
-[; ;glory.c: 22: void USART_Init(long);
+"23 glory.c
+[; ;glory.c: 23: void USART_Init(long);
 [v _USART_Init `(v ~T0 @X0 0 ef1`l ]
-"7412 /opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7412: extern volatile __bit GIE __attribute__((address(0x7F97)));
+"7412 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7412: extern volatile __bit GIE __attribute__((address(0x7F97)));
 [v _GIE `Vb ~T0 @X0 0 e@32663 ]
 "7988
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7988: extern volatile __bit PEIE __attribute__((address(0x7F96)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7988: extern volatile __bit PEIE __attribute__((address(0x7F96)));
 [v _PEIE `Vb ~T0 @X0 0 e@32662 ]
 "8174
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8174: extern volatile __bit RCIE __attribute__((address(0x7CED)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8174: extern volatile __bit RCIE __attribute__((address(0x7CED)));
 [v _RCIE `Vb ~T0 @X0 0 e@31981 ]
-"24 glory.c
-[; ;glory.c: 24: void USART_EnviaMsg(char *str);
+"25 glory.c
+[; ;glory.c: 25: void USART_EnviaMsg(char *str);
 [v _USART_EnviaMsg `(v ~T0 @X0 0 ef1`*uc ]
 [v F183 `(v ~T0 @X0 1 tf1`ul ]
-"12 /opt/microchip/xc8/v2.32/pic/include/builtins.h
+"12 C:\Program Files\Microchip\xc8\v2.32\pic\include\builtins.h
 [v __delay `JF183 ~T0 @X0 0 e ]
 [p i __delay ]
-"7697 /opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7697: extern volatile __bit LATE0 __attribute__((address(0x7C68)));
+"7697 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7697: extern volatile __bit LATE0 __attribute__((address(0x7C68)));
 [v _LATE0 `Vb ~T0 @X0 0 e@31848 ]
 "7616
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7616: extern volatile __bit LATA5 __attribute__((address(0x7C4D)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7616: extern volatile __bit LATA5 __attribute__((address(0x7C4D)));
 [v _LATA5 `Vb ~T0 @X0 0 e@31821 ]
 "8513
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8513: extern volatile __bit TMR1IF __attribute__((address(0x7CF0)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8513: extern volatile __bit TMR1IF __attribute__((address(0x7CF0)));
 [v _TMR1IF `Vb ~T0 @X0 0 e@31984 ]
 "8510
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8510: extern volatile __bit TMR1IE __attribute__((address(0x7CE8)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8510: extern volatile __bit TMR1IE __attribute__((address(0x7CE8)));
 [v _TMR1IE `Vb ~T0 @X0 0 e@31976 ]
 "278
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 278:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 278:     struct {
 [s S17 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S17 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
 "288
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 288:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 288:     struct {
 [s S18 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S18 . INT0 INT1 INT2 CCP2 KBI0 KBI1 KBI2 KBI3 ]
 "298
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 298:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 298:     struct {
 [s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S19 . AN12 AN10 AN8 AN9 AN11 PGM PGC PGD ]
 "308
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 308:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 308:     struct {
 [s S20 :1 `uc 1 ]
 [n S20 . FLT0 ]
 "311
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 311:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 311:     struct {
 [s S21 :3 `uc 1 :1 `uc 1 ]
 [n S21 . . CCP2_PA2 ]
 "277
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 277: typedef union {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 277: typedef union {
 [u S16 `S17 1 `S18 1 `S19 1 `S20 1 `S21 1 ]
 [n S16 . . . . . . ]
 "316
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 316: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 316: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
 [v _PORTBbits `VS16 ~T0 @X0 0 e@3969 ]
 "7604
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7604: extern volatile __bit LATA1 __attribute__((address(0x7C49)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7604: extern volatile __bit LATA1 __attribute__((address(0x7C49)));
 [v _LATA1 `Vb ~T0 @X0 0 e@31817 ]
 "7601
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7601: extern volatile __bit LATA0 __attribute__((address(0x7C48)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7601: extern volatile __bit LATA0 __attribute__((address(0x7C48)));
 [v _LATA0 `Vb ~T0 @X0 0 e@31816 ]
 "8525
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8525: extern volatile __bit TMR2IF __attribute__((address(0x7CF1)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8525: extern volatile __bit TMR2IF __attribute__((address(0x7CF1)));
 [v _TMR2IF `Vb ~T0 @X0 0 e@31985 ]
 "8522
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8522: extern volatile __bit TMR2IE __attribute__((address(0x7CE9)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8522: extern volatile __bit TMR2IE __attribute__((address(0x7CE9)));
 [v _TMR2IE `Vb ~T0 @X0 0 e@31977 ]
 "7703
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7703: extern volatile __bit LATE2 __attribute__((address(0x7C6A)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7703: extern volatile __bit LATE2 __attribute__((address(0x7C6A)));
 [v _LATE2 `Vb ~T0 @X0 0 e@31850 ]
 "7700
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7700: extern volatile __bit LATE1 __attribute__((address(0x7C69)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7700: extern volatile __bit LATE1 __attribute__((address(0x7C69)));
 [v _LATE1 `Vb ~T0 @X0 0 e@31849 ]
 "3601
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3601: extern volatile unsigned char SPBRG __attribute__((address(0xFAF)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3601: extern volatile unsigned char SPBRG __attribute__((address(0xFAF)));
 [v _SPBRG `Vuc ~T0 @X0 0 e@4015 ]
 "3321
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3321: extern volatile unsigned char TXSTA __attribute__((address(0xFAC)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3321: extern volatile unsigned char TXSTA __attribute__((address(0xFAC)));
 [v _TXSTA `Vuc ~T0 @X0 0 e@4012 ]
 "3111
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3111: extern volatile unsigned char RCSTA __attribute__((address(0xFAB)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3111: extern volatile unsigned char RCSTA __attribute__((address(0xFAB)));
 [v _RCSTA `Vuc ~T0 @X0 0 e@4011 ]
 [t ~ __interrupt . k ]
 [t T42 __interrupt ]
 "2678
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2678:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2678:     struct {
 [s S96 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S96 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF PSPIF ]
 "2688
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2688:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2688:     struct {
 [s S97 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S97 . . TX1IF RC1IF ]
 "2677
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2677: typedef union {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2677: typedef union {
 [u S95 `S96 1 `S97 1 ]
 [n S95 . . . ]
 "2694
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2694: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2694: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
 [v _PIR1bits `VS95 ~T0 @X0 0 e@3998 ]
 "2601
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2601:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2601:     struct {
 [s S93 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S93 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE PSPIE ]
 "2611
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2611:     struct {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2611:     struct {
 [s S94 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S94 . . TX1IE RC1IE ]
 "2600
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2600: typedef union {
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2600: typedef union {
 [u S92 `S93 1 `S94 1 ]
 [n S92 . . . ]
 "2617
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2617: extern volatile PIE1bits_t PIE1bits __attribute__((address(0xF9D)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2617: extern volatile PIE1bits_t PIE1bits __attribute__((address(0xF9D)));
 [v _PIE1bits `VS92 ~T0 @X0 0 e@3997 ]
 "8177
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8177: extern volatile __bit RCIF __attribute__((address(0x7CF5)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8177: extern volatile __bit RCIF __attribute__((address(0x7CF5)));
 [v _RCIF `Vb ~T0 @X0 0 e@31989 ]
 "3589
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3589: extern volatile unsigned char RCREG __attribute__((address(0xFAE)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3589: extern volatile unsigned char RCREG __attribute__((address(0xFAE)));
 [v _RCREG `Vuc ~T0 @X0 0 e@4014 ]
 "7613
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7613: extern volatile __bit LATA4 __attribute__((address(0x7C4C)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7613: extern volatile __bit LATA4 __attribute__((address(0x7C4C)));
 [v _LATA4 `Vb ~T0 @X0 0 e@31820 ]
 "7610
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7610: extern volatile __bit LATA3 __attribute__((address(0x7C4B)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7610: extern volatile __bit LATA3 __attribute__((address(0x7C4B)));
 [v _LATA3 `Vb ~T0 @X0 0 e@31819 ]
-"113 /opt/microchip/xc8/v2.32/pic/include/c99/stdio.h
+"113 C:\Program Files\Microchip\xc8\v2.32\pic\include\c99\stdio.h
 [v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
-"53 /opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 53: extern volatile unsigned char PORTA __attribute__((address(0xF80)));
-[v _PORTA `Vuc ~T0 @X0 0 e@3968 ]
-"272
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 272: extern volatile unsigned char PORTB __attribute__((address(0xF81)));
-[v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
-"451
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 451: extern volatile unsigned char PORTC __attribute__((address(0xF82)));
-[v _PORTC `Vuc ~T0 @X0 0 e@3970 ]
-"633
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 633: extern volatile unsigned char PORTD __attribute__((address(0xF83)));
-[v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
-"8732
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 8732: extern volatile __bit TXIF __attribute__((address(0x7CF4)));
+"8732 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 8732: extern volatile __bit TXIF __attribute__((address(0x7CF4)));
 [v _TXIF `Vb ~T0 @X0 0 e@31988 ]
 "3577
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3577: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3577: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
 [v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
 "15 ./glory_header.h
 [p x OSC  =  INTIO67     ]
@@ -298,422 +286,422 @@ Version 4.0 HI-TECH Software Intermediate Code
 [p x EBTR3  =  OFF       ]
 "67
 [p x EBTRB  =  OFF       ]
-"55 /opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 55: __asm("PORTA equ 0F80h");
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 55: __asm("PORTA equ 0F80h");
 [; <" PORTA equ 0F80h ;# ">
 "274
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 274: __asm("PORTB equ 0F81h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 274: __asm("PORTB equ 0F81h");
 [; <" PORTB equ 0F81h ;# ">
 "453
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 453: __asm("PORTC equ 0F82h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 453: __asm("PORTC equ 0F82h");
 [; <" PORTC equ 0F82h ;# ">
 "635
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 635: __asm("PORTD equ 0F83h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 635: __asm("PORTD equ 0F83h");
 [; <" PORTD equ 0F83h ;# ">
 "777
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 777: __asm("PORTE equ 0F84h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 777: __asm("PORTE equ 0F84h");
 [; <" PORTE equ 0F84h ;# ">
 "980
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 980: __asm("LATA equ 0F89h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 980: __asm("LATA equ 0F89h");
 [; <" LATA equ 0F89h ;# ">
 "1092
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1092: __asm("LATB equ 0F8Ah");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1092: __asm("LATB equ 0F8Ah");
 [; <" LATB equ 0F8Ah ;# ">
 "1204
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1204: __asm("LATC equ 0F8Bh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1204: __asm("LATC equ 0F8Bh");
 [; <" LATC equ 0F8Bh ;# ">
 "1316
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1316: __asm("LATD equ 0F8Ch");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1316: __asm("LATD equ 0F8Ch");
 [; <" LATD equ 0F8Ch ;# ">
 "1428
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1428: __asm("LATE equ 0F8Dh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1428: __asm("LATE equ 0F8Dh");
 [; <" LATE equ 0F8Dh ;# ">
 "1480
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1480: __asm("TRISA equ 0F92h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1480: __asm("TRISA equ 0F92h");
 [; <" TRISA equ 0F92h ;# ">
 "1485
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1485: __asm("DDRA equ 0F92h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1485: __asm("DDRA equ 0F92h");
 [; <" DDRA equ 0F92h ;# ">
 "1702
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1702: __asm("TRISB equ 0F93h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1702: __asm("TRISB equ 0F93h");
 [; <" TRISB equ 0F93h ;# ">
 "1707
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1707: __asm("DDRB equ 0F93h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1707: __asm("DDRB equ 0F93h");
 [; <" DDRB equ 0F93h ;# ">
 "1924
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1924: __asm("TRISC equ 0F94h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1924: __asm("TRISC equ 0F94h");
 [; <" TRISC equ 0F94h ;# ">
 "1929
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 1929: __asm("DDRC equ 0F94h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 1929: __asm("DDRC equ 0F94h");
 [; <" DDRC equ 0F94h ;# ">
 "2146
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2146: __asm("TRISD equ 0F95h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2146: __asm("TRISD equ 0F95h");
 [; <" TRISD equ 0F95h ;# ">
 "2151
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2151: __asm("DDRD equ 0F95h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2151: __asm("DDRD equ 0F95h");
 [; <" DDRD equ 0F95h ;# ">
 "2368
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2368: __asm("TRISE equ 0F96h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2368: __asm("TRISE equ 0F96h");
 [; <" TRISE equ 0F96h ;# ">
 "2373
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2373: __asm("DDRE equ 0F96h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2373: __asm("DDRE equ 0F96h");
 [; <" DDRE equ 0F96h ;# ">
 "2532
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2532: __asm("OSCTUNE equ 0F9Bh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2532: __asm("OSCTUNE equ 0F9Bh");
 [; <" OSCTUNE equ 0F9Bh ;# ">
 "2597
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2597: __asm("PIE1 equ 0F9Dh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2597: __asm("PIE1 equ 0F9Dh");
 [; <" PIE1 equ 0F9Dh ;# ">
 "2674
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2674: __asm("PIR1 equ 0F9Eh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2674: __asm("PIR1 equ 0F9Eh");
 [; <" PIR1 equ 0F9Eh ;# ">
 "2751
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2751: __asm("IPR1 equ 0F9Fh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2751: __asm("IPR1 equ 0F9Fh");
 [; <" IPR1 equ 0F9Fh ;# ">
 "2828
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2828: __asm("PIE2 equ 0FA0h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2828: __asm("PIE2 equ 0FA0h");
 [; <" PIE2 equ 0FA0h ;# ">
 "2894
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2894: __asm("PIR2 equ 0FA1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2894: __asm("PIR2 equ 0FA1h");
 [; <" PIR2 equ 0FA1h ;# ">
 "2960
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 2960: __asm("IPR2 equ 0FA2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 2960: __asm("IPR2 equ 0FA2h");
 [; <" IPR2 equ 0FA2h ;# ">
 "3026
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3026: __asm("EECON1 equ 0FA6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3026: __asm("EECON1 equ 0FA6h");
 [; <" EECON1 equ 0FA6h ;# ">
 "3092
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3092: __asm("EECON2 equ 0FA7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3092: __asm("EECON2 equ 0FA7h");
 [; <" EECON2 equ 0FA7h ;# ">
 "3099
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3099: __asm("EEDATA equ 0FA8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3099: __asm("EEDATA equ 0FA8h");
 [; <" EEDATA equ 0FA8h ;# ">
 "3106
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3106: __asm("EEADR equ 0FA9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3106: __asm("EEADR equ 0FA9h");
 [; <" EEADR equ 0FA9h ;# ">
 "3113
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3113: __asm("RCSTA equ 0FABh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3113: __asm("RCSTA equ 0FABh");
 [; <" RCSTA equ 0FABh ;# ">
 "3118
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3118: __asm("RCSTA1 equ 0FABh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3118: __asm("RCSTA1 equ 0FABh");
 [; <" RCSTA1 equ 0FABh ;# ">
 "3323
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3323: __asm("TXSTA equ 0FACh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3323: __asm("TXSTA equ 0FACh");
 [; <" TXSTA equ 0FACh ;# ">
 "3328
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3328: __asm("TXSTA1 equ 0FACh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3328: __asm("TXSTA1 equ 0FACh");
 [; <" TXSTA1 equ 0FACh ;# ">
 "3579
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3579: __asm("TXREG equ 0FADh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3579: __asm("TXREG equ 0FADh");
 [; <" TXREG equ 0FADh ;# ">
 "3584
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3584: __asm("TXREG1 equ 0FADh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3584: __asm("TXREG1 equ 0FADh");
 [; <" TXREG1 equ 0FADh ;# ">
 "3591
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3591: __asm("RCREG equ 0FAEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3591: __asm("RCREG equ 0FAEh");
 [; <" RCREG equ 0FAEh ;# ">
 "3596
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3596: __asm("RCREG1 equ 0FAEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3596: __asm("RCREG1 equ 0FAEh");
 [; <" RCREG1 equ 0FAEh ;# ">
 "3603
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3603: __asm("SPBRG equ 0FAFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3603: __asm("SPBRG equ 0FAFh");
 [; <" SPBRG equ 0FAFh ;# ">
 "3608
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3608: __asm("SPBRG1 equ 0FAFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3608: __asm("SPBRG1 equ 0FAFh");
 [; <" SPBRG1 equ 0FAFh ;# ">
 "3615
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3615: __asm("SPBRGH equ 0FB0h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3615: __asm("SPBRGH equ 0FB0h");
 [; <" SPBRGH equ 0FB0h ;# ">
 "3622
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3622: __asm("T3CON equ 0FB1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3622: __asm("T3CON equ 0FB1h");
 [; <" T3CON equ 0FB1h ;# ">
 "3734
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3734: __asm("TMR3 equ 0FB2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3734: __asm("TMR3 equ 0FB2h");
 [; <" TMR3 equ 0FB2h ;# ">
 "3741
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3741: __asm("TMR3L equ 0FB2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3741: __asm("TMR3L equ 0FB2h");
 [; <" TMR3L equ 0FB2h ;# ">
 "3748
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3748: __asm("TMR3H equ 0FB3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3748: __asm("TMR3H equ 0FB3h");
 [; <" TMR3H equ 0FB3h ;# ">
 "3755
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3755: __asm("CMCON equ 0FB4h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3755: __asm("CMCON equ 0FB4h");
 [; <" CMCON equ 0FB4h ;# ">
 "3845
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3845: __asm("CVRCON equ 0FB5h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3845: __asm("CVRCON equ 0FB5h");
 [; <" CVRCON equ 0FB5h ;# ">
 "3924
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3924: __asm("ECCP1AS equ 0FB6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3924: __asm("ECCP1AS equ 0FB6h");
 [; <" ECCP1AS equ 0FB6h ;# ">
 "3929
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 3929: __asm("ECCPAS equ 0FB6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 3929: __asm("ECCPAS equ 0FB6h");
 [; <" ECCPAS equ 0FB6h ;# ">
 "4086
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4086: __asm("PWM1CON equ 0FB7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4086: __asm("PWM1CON equ 0FB7h");
 [; <" PWM1CON equ 0FB7h ;# ">
 "4091
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4091: __asm("ECCP1DEL equ 0FB7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4091: __asm("ECCP1DEL equ 0FB7h");
 [; <" ECCP1DEL equ 0FB7h ;# ">
 "4224
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4224: __asm("BAUDCON equ 0FB8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4224: __asm("BAUDCON equ 0FB8h");
 [; <" BAUDCON equ 0FB8h ;# ">
 "4229
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4229: __asm("BAUDCTL equ 0FB8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4229: __asm("BAUDCTL equ 0FB8h");
 [; <" BAUDCTL equ 0FB8h ;# ">
 "4404
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4404: __asm("CCP2CON equ 0FBAh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4404: __asm("CCP2CON equ 0FBAh");
 [; <" CCP2CON equ 0FBAh ;# ">
 "4483
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4483: __asm("CCPR2 equ 0FBBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4483: __asm("CCPR2 equ 0FBBh");
 [; <" CCPR2 equ 0FBBh ;# ">
 "4490
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4490: __asm("CCPR2L equ 0FBBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4490: __asm("CCPR2L equ 0FBBh");
 [; <" CCPR2L equ 0FBBh ;# ">
 "4497
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4497: __asm("CCPR2H equ 0FBCh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4497: __asm("CCPR2H equ 0FBCh");
 [; <" CCPR2H equ 0FBCh ;# ">
 "4504
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4504: __asm("CCP1CON equ 0FBDh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4504: __asm("CCP1CON equ 0FBDh");
 [; <" CCP1CON equ 0FBDh ;# ">
 "4601
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4601: __asm("CCPR1 equ 0FBEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4601: __asm("CCPR1 equ 0FBEh");
 [; <" CCPR1 equ 0FBEh ;# ">
 "4608
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4608: __asm("CCPR1L equ 0FBEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4608: __asm("CCPR1L equ 0FBEh");
 [; <" CCPR1L equ 0FBEh ;# ">
 "4615
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4615: __asm("CCPR1H equ 0FBFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4615: __asm("CCPR1H equ 0FBFh");
 [; <" CCPR1H equ 0FBFh ;# ">
 "4622
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4622: __asm("ADCON2 equ 0FC0h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4622: __asm("ADCON2 equ 0FC0h");
 [; <" ADCON2 equ 0FC0h ;# ">
 "4693
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4693: __asm("ADCON1 equ 0FC1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4693: __asm("ADCON1 equ 0FC1h");
 [; <" ADCON1 equ 0FC1h ;# ">
 "4778
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4778: __asm("ADCON0 equ 0FC2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4778: __asm("ADCON0 equ 0FC2h");
 [; <" ADCON0 equ 0FC2h ;# ">
 "4897
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4897: __asm("ADRES equ 0FC3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4897: __asm("ADRES equ 0FC3h");
 [; <" ADRES equ 0FC3h ;# ">
 "4904
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4904: __asm("ADRESL equ 0FC3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4904: __asm("ADRESL equ 0FC3h");
 [; <" ADRESL equ 0FC3h ;# ">
 "4911
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4911: __asm("ADRESH equ 0FC4h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4911: __asm("ADRESH equ 0FC4h");
 [; <" ADRESH equ 0FC4h ;# ">
 "4918
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 4918: __asm("SSPCON2 equ 0FC5h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 4918: __asm("SSPCON2 equ 0FC5h");
 [; <" SSPCON2 equ 0FC5h ;# ">
 "5013
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5013: __asm("SSPCON1 equ 0FC6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5013: __asm("SSPCON1 equ 0FC6h");
 [; <" SSPCON1 equ 0FC6h ;# ">
 "5083
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5083: __asm("SSPSTAT equ 0FC7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5083: __asm("SSPSTAT equ 0FC7h");
 [; <" SSPSTAT equ 0FC7h ;# ">
 "5304
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5304: __asm("SSPADD equ 0FC8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5304: __asm("SSPADD equ 0FC8h");
 [; <" SSPADD equ 0FC8h ;# ">
 "5311
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5311: __asm("SSPBUF equ 0FC9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5311: __asm("SSPBUF equ 0FC9h");
 [; <" SSPBUF equ 0FC9h ;# ">
 "5318
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5318: __asm("T2CON equ 0FCAh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5318: __asm("T2CON equ 0FCAh");
 [; <" T2CON equ 0FCAh ;# ">
 "5416
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5416: __asm("PR2 equ 0FCBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5416: __asm("PR2 equ 0FCBh");
 [; <" PR2 equ 0FCBh ;# ">
 "5421
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5421: __asm("MEMCON equ 0FCBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5421: __asm("MEMCON equ 0FCBh");
 [; <" MEMCON equ 0FCBh ;# ">
 "5526
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5526: __asm("TMR2 equ 0FCCh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5526: __asm("TMR2 equ 0FCCh");
 [; <" TMR2 equ 0FCCh ;# ">
 "5533
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5533: __asm("T1CON equ 0FCDh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5533: __asm("T1CON equ 0FCDh");
 [; <" T1CON equ 0FCDh ;# ">
 "5636
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5636: __asm("TMR1 equ 0FCEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5636: __asm("TMR1 equ 0FCEh");
 [; <" TMR1 equ 0FCEh ;# ">
 "5643
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5643: __asm("TMR1L equ 0FCEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5643: __asm("TMR1L equ 0FCEh");
 [; <" TMR1L equ 0FCEh ;# ">
 "5650
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5650: __asm("TMR1H equ 0FCFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5650: __asm("TMR1H equ 0FCFh");
 [; <" TMR1H equ 0FCFh ;# ">
 "5657
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5657: __asm("RCON equ 0FD0h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5657: __asm("RCON equ 0FD0h");
 [; <" RCON equ 0FD0h ;# ">
 "5790
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5790: __asm("WDTCON equ 0FD1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5790: __asm("WDTCON equ 0FD1h");
 [; <" WDTCON equ 0FD1h ;# ">
 "5818
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5818: __asm("HLVDCON equ 0FD2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5818: __asm("HLVDCON equ 0FD2h");
 [; <" HLVDCON equ 0FD2h ;# ">
 "5823
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 5823: __asm("LVDCON equ 0FD2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 5823: __asm("LVDCON equ 0FD2h");
 [; <" LVDCON equ 0FD2h ;# ">
 "6088
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6088: __asm("OSCCON equ 0FD3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6088: __asm("OSCCON equ 0FD3h");
 [; <" OSCCON equ 0FD3h ;# ">
 "6171
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6171: __asm("T0CON equ 0FD5h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6171: __asm("T0CON equ 0FD5h");
 [; <" T0CON equ 0FD5h ;# ">
 "6254
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6254: __asm("TMR0 equ 0FD6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6254: __asm("TMR0 equ 0FD6h");
 [; <" TMR0 equ 0FD6h ;# ">
 "6261
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6261: __asm("TMR0L equ 0FD6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6261: __asm("TMR0L equ 0FD6h");
 [; <" TMR0L equ 0FD6h ;# ">
 "6268
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6268: __asm("TMR0H equ 0FD7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6268: __asm("TMR0H equ 0FD7h");
 [; <" TMR0H equ 0FD7h ;# ">
 "6275
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6275: __asm("STATUS equ 0FD8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6275: __asm("STATUS equ 0FD8h");
 [; <" STATUS equ 0FD8h ;# ">
 "6346
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6346: __asm("FSR2 equ 0FD9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6346: __asm("FSR2 equ 0FD9h");
 [; <" FSR2 equ 0FD9h ;# ">
 "6353
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6353: __asm("FSR2L equ 0FD9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6353: __asm("FSR2L equ 0FD9h");
 [; <" FSR2L equ 0FD9h ;# ">
 "6360
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6360: __asm("FSR2H equ 0FDAh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6360: __asm("FSR2H equ 0FDAh");
 [; <" FSR2H equ 0FDAh ;# ">
 "6367
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6367: __asm("PLUSW2 equ 0FDBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6367: __asm("PLUSW2 equ 0FDBh");
 [; <" PLUSW2 equ 0FDBh ;# ">
 "6374
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6374: __asm("PREINC2 equ 0FDCh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6374: __asm("PREINC2 equ 0FDCh");
 [; <" PREINC2 equ 0FDCh ;# ">
 "6381
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6381: __asm("POSTDEC2 equ 0FDDh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6381: __asm("POSTDEC2 equ 0FDDh");
 [; <" POSTDEC2 equ 0FDDh ;# ">
 "6388
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6388: __asm("POSTINC2 equ 0FDEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6388: __asm("POSTINC2 equ 0FDEh");
 [; <" POSTINC2 equ 0FDEh ;# ">
 "6395
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6395: __asm("INDF2 equ 0FDFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6395: __asm("INDF2 equ 0FDFh");
 [; <" INDF2 equ 0FDFh ;# ">
 "6402
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6402: __asm("BSR equ 0FE0h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6402: __asm("BSR equ 0FE0h");
 [; <" BSR equ 0FE0h ;# ">
 "6409
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6409: __asm("FSR1 equ 0FE1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6409: __asm("FSR1 equ 0FE1h");
 [; <" FSR1 equ 0FE1h ;# ">
 "6416
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6416: __asm("FSR1L equ 0FE1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6416: __asm("FSR1L equ 0FE1h");
 [; <" FSR1L equ 0FE1h ;# ">
 "6423
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6423: __asm("FSR1H equ 0FE2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6423: __asm("FSR1H equ 0FE2h");
 [; <" FSR1H equ 0FE2h ;# ">
 "6430
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6430: __asm("PLUSW1 equ 0FE3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6430: __asm("PLUSW1 equ 0FE3h");
 [; <" PLUSW1 equ 0FE3h ;# ">
 "6437
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6437: __asm("PREINC1 equ 0FE4h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6437: __asm("PREINC1 equ 0FE4h");
 [; <" PREINC1 equ 0FE4h ;# ">
 "6444
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6444: __asm("POSTDEC1 equ 0FE5h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6444: __asm("POSTDEC1 equ 0FE5h");
 [; <" POSTDEC1 equ 0FE5h ;# ">
 "6451
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6451: __asm("POSTINC1 equ 0FE6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6451: __asm("POSTINC1 equ 0FE6h");
 [; <" POSTINC1 equ 0FE6h ;# ">
 "6458
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6458: __asm("INDF1 equ 0FE7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6458: __asm("INDF1 equ 0FE7h");
 [; <" INDF1 equ 0FE7h ;# ">
 "6465
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6465: __asm("WREG equ 0FE8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6465: __asm("WREG equ 0FE8h");
 [; <" WREG equ 0FE8h ;# ">
 "6477
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6477: __asm("FSR0 equ 0FE9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6477: __asm("FSR0 equ 0FE9h");
 [; <" FSR0 equ 0FE9h ;# ">
 "6484
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6484: __asm("FSR0L equ 0FE9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6484: __asm("FSR0L equ 0FE9h");
 [; <" FSR0L equ 0FE9h ;# ">
 "6491
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6491: __asm("FSR0H equ 0FEAh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6491: __asm("FSR0H equ 0FEAh");
 [; <" FSR0H equ 0FEAh ;# ">
 "6498
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6498: __asm("PLUSW0 equ 0FEBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6498: __asm("PLUSW0 equ 0FEBh");
 [; <" PLUSW0 equ 0FEBh ;# ">
 "6505
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6505: __asm("PREINC0 equ 0FECh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6505: __asm("PREINC0 equ 0FECh");
 [; <" PREINC0 equ 0FECh ;# ">
 "6512
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6512: __asm("POSTDEC0 equ 0FEDh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6512: __asm("POSTDEC0 equ 0FEDh");
 [; <" POSTDEC0 equ 0FEDh ;# ">
 "6519
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6519: __asm("POSTINC0 equ 0FEEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6519: __asm("POSTINC0 equ 0FEEh");
 [; <" POSTINC0 equ 0FEEh ;# ">
 "6526
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6526: __asm("INDF0 equ 0FEFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6526: __asm("INDF0 equ 0FEFh");
 [; <" INDF0 equ 0FEFh ;# ">
 "6533
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6533: __asm("INTCON3 equ 0FF0h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6533: __asm("INTCON3 equ 0FF0h");
 [; <" INTCON3 equ 0FF0h ;# ">
 "6625
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6625: __asm("INTCON2 equ 0FF1h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6625: __asm("INTCON2 equ 0FF1h");
 [; <" INTCON2 equ 0FF1h ;# ">
 "6695
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6695: __asm("INTCON equ 0FF2h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6695: __asm("INTCON equ 0FF2h");
 [; <" INTCON equ 0FF2h ;# ">
 "6812
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6812: __asm("PROD equ 0FF3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6812: __asm("PROD equ 0FF3h");
 [; <" PROD equ 0FF3h ;# ">
 "6819
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6819: __asm("PRODL equ 0FF3h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6819: __asm("PRODL equ 0FF3h");
 [; <" PRODL equ 0FF3h ;# ">
 "6826
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6826: __asm("PRODH equ 0FF4h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6826: __asm("PRODH equ 0FF4h");
 [; <" PRODH equ 0FF4h ;# ">
 "6833
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6833: __asm("TABLAT equ 0FF5h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6833: __asm("TABLAT equ 0FF5h");
 [; <" TABLAT equ 0FF5h ;# ">
 "6842
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6842: __asm("TBLPTR equ 0FF6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6842: __asm("TBLPTR equ 0FF6h");
 [; <" TBLPTR equ 0FF6h ;# ">
 "6849
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6849: __asm("TBLPTRL equ 0FF6h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6849: __asm("TBLPTRL equ 0FF6h");
 [; <" TBLPTRL equ 0FF6h ;# ">
 "6856
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6856: __asm("TBLPTRH equ 0FF7h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6856: __asm("TBLPTRH equ 0FF7h");
 [; <" TBLPTRH equ 0FF7h ;# ">
 "6863
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6863: __asm("TBLPTRU equ 0FF8h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6863: __asm("TBLPTRU equ 0FF8h");
 [; <" TBLPTRU equ 0FF8h ;# ">
 "6872
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6872: __asm("PCLAT equ 0FF9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6872: __asm("PCLAT equ 0FF9h");
 [; <" PCLAT equ 0FF9h ;# ">
 "6879
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6879: __asm("PC equ 0FF9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6879: __asm("PC equ 0FF9h");
 [; <" PC equ 0FF9h ;# ">
 "6886
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6886: __asm("PCL equ 0FF9h");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6886: __asm("PCL equ 0FF9h");
 [; <" PCL equ 0FF9h ;# ">
 "6893
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6893: __asm("PCLATH equ 0FFAh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6893: __asm("PCLATH equ 0FFAh");
 [; <" PCLATH equ 0FFAh ;# ">
 "6900
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6900: __asm("PCLATU equ 0FFBh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6900: __asm("PCLATU equ 0FFBh");
 [; <" PCLATU equ 0FFBh ;# ">
 "6907
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6907: __asm("STKPTR equ 0FFCh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6907: __asm("STKPTR equ 0FFCh");
 [; <" STKPTR equ 0FFCh ;# ">
 "6981
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6981: __asm("TOS equ 0FFDh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6981: __asm("TOS equ 0FFDh");
 [; <" TOS equ 0FFDh ;# ">
 "6988
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6988: __asm("TOSL equ 0FFDh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6988: __asm("TOSL equ 0FFDh");
 [; <" TOSL equ 0FFDh ;# ">
 "6995
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 6995: __asm("TOSH equ 0FFEh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 6995: __asm("TOSH equ 0FFEh");
 [; <" TOSH equ 0FFEh ;# ">
 "7002
-[; ;/opt/microchip/xc8/v2.32/pic/include/proc/pic18f4520.h: 7002: __asm("TOSU equ 0FFFh");
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h: 7002: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"29 glory.c
-[; ;glory.c: 29: char CRLF[] = "\x0D\x0A";
+"30 glory.c
+[; ;glory.c: 30: char CRLF[] = "\x0D\x0A";
 [v _CRLF `uc ~T0 @X0 -> 3 `i e ]
 [i _CRLF
 :U ..
@@ -722,8 +710,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"31
-[; ;glory.c: 31: char MsgAyuda[] = "Press O open / C close / S status / U UnLock door / E clear errors / B print bag mode / V version / H help";
+"32
+[; ;glory.c: 32: char MsgAyuda[] = "Press O open / C close / S status / U UnLock door / E clear errors / B print bag mode / V version / H help";
 [v _MsgAyuda `uc ~T0 @X0 -> 107 `i e ]
 [i _MsgAyuda
 :U ..
@@ -836,8 +824,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"34
-[; ;glory.c: 34: char MsgCritical_0[] = "CRITICAL : BAG BAG_STATE_REMOVED";
+"35
+[; ;glory.c: 35: char MsgCritical_0[] = "CRITICAL : BAG BAG_STATE_REMOVED";
 [v _MsgCritical_0 `uc ~T0 @X0 -> 33 `i e ]
 [i _MsgCritical_0
 :U ..
@@ -876,8 +864,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"35
-[; ;glory.c: 35: char MsgCritical_1[] = "CRITICAL : BAG BAG_STATE_PUTTING";
+"36
+[; ;glory.c: 36: char MsgCritical_1[] = "CRITICAL : BAG BAG_STATE_PUTTING";
 [v _MsgCritical_1 `uc ~T0 @X0 -> 33 `i e ]
 [i _MsgCritical_1
 :U ..
@@ -916,8 +904,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"36
-[; ;glory.c: 36: char MsgCritical_2[] = "CRITICAL : BAG BAG_STATE_TAKING";
+"37
+[; ;glory.c: 37: char MsgCritical_2[] = "CRITICAL : BAG BAG_STATE_TAKING";
 [v _MsgCritical_2 `uc ~T0 @X0 -> 32 `i e ]
 [i _MsgCritical_2
 :U ..
@@ -955,8 +943,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"37
-[; ;glory.c: 37: char MsgCritical_3[] = "CRITICAL : BAG BAG_STATE_IN_PLACE";
+"38
+[; ;glory.c: 38: char MsgCritical_3[] = "CRITICAL : BAG BAG_STATE_IN_PLACE";
 [v _MsgCritical_3 `uc ~T0 @X0 -> 34 `i e ]
 [i _MsgCritical_3
 :U ..
@@ -996,53 +984,53 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"39
-[; ;glory.c: 39: int ValorStateE;
-[v _ValorStateE `i ~T0 @X0 1 e ]
 "40
-[; ;glory.c: 40: int ValorStateShutter;
-[v _ValorStateShutter `i ~T0 @X0 1 e ]
+[; ;glory.c: 40: int ValorStateE;
+[v _ValorStateE `i ~T0 @X0 1 e ]
 "41
-[; ;glory.c: 41: int ValorStateLock;
-[v _ValorStateLock `i ~T0 @X0 1 e ]
+[; ;glory.c: 41: int ValorStateShutter;
+[v _ValorStateShutter `i ~T0 @X0 1 e ]
 "42
-[; ;glory.c: 42: int ValorBagSensor;
-[v _ValorBagSensor `i ~T0 @X0 1 e ]
+[; ;glory.c: 42: int ValorStateLock;
+[v _ValorStateLock `i ~T0 @X0 1 e ]
 "43
-[; ;glory.c: 43: int ValorBagStatus;
-[v _ValorBagStatus `i ~T0 @X0 1 e ]
+[; ;glory.c: 43: int ValorBagSensor;
+[v _ValorBagSensor `i ~T0 @X0 1 e ]
 "44
-[; ;glory.c: 44: int Counter;
+[; ;glory.c: 44: int ValorBagStatus;
+[v _ValorBagStatus `i ~T0 @X0 1 e ]
+"45
+[; ;glory.c: 45: int Counter;
 [v _Counter `i ~T0 @X0 1 e ]
-"46
-[; ;glory.c: 46: int PuertaAbierta;
+"47
+[; ;glory.c: 47: int PuertaAbierta;
 [v _PuertaAbierta `i ~T0 @X0 1 e ]
-"48
-[; ;glory.c: 48: int ValorBag;
-[v _ValorBag `i ~T0 @X0 1 e ]
 "49
-[; ;glory.c: 49: int EstadoAprobacionBolsa;
+[; ;glory.c: 49: int ValorBag;
+[v _ValorBag `i ~T0 @X0 1 e ]
+"50
+[; ;glory.c: 50: int EstadoAprobacionBolsa;
 [v _EstadoAprobacionBolsa `i ~T0 @X0 1 e ]
-"51
-[; ;glory.c: 51: int PulsoArriba;
-[v _PulsoArriba `i ~T0 @X0 1 e ]
 "52
-[; ;glory.c: 52: int TiempoPulso;
-[v _TiempoPulso `i ~T0 @X0 1 e ]
+[; ;glory.c: 52: int PulsoArriba;
+[v _PulsoArriba `i ~T0 @X0 1 e ]
 "53
-[; ;glory.c: 53: int PulsoArribaBuzzer;
-[v _PulsoArribaBuzzer `i ~T0 @X0 1 e ]
+[; ;glory.c: 53: int TiempoPulso;
+[v _TiempoPulso `i ~T0 @X0 1 e ]
 "54
-[; ;glory.c: 54: int TiempoPulsoBuzzer;
+[; ;glory.c: 54: int PulsoArribaBuzzer;
+[v _PulsoArribaBuzzer `i ~T0 @X0 1 e ]
+"55
+[; ;glory.c: 55: int TiempoPulsoBuzzer;
 [v _TiempoPulsoBuzzer `i ~T0 @X0 1 e ]
-"56
-[; ;glory.c: 56: int ModoTrabajo;
-[v _ModoTrabajo `i ~T0 @X0 1 e ]
 "57
-[; ;glory.c: 57: int Counter;
+[; ;glory.c: 57: int ModoTrabajo;
+[v _ModoTrabajo `i ~T0 @X0 1 e ]
+"58
+[; ;glory.c: 58: int Counter;
 [v _Counter `i ~T0 @X0 1 e ]
-"60
-[; ;glory.c: 60: char MsgVersion[] = "Version : glory_2.3";
+"61
+[; ;glory.c: 61: char MsgVersion[] = "Version : glory_2.3";
 [v _MsgVersion `uc ~T0 @X0 -> 20 `i e ]
 [i _MsgVersion
 :U ..
@@ -1068,8 +1056,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"62
-[; ;glory.c: 62: char MsgPersonalidad1[] = "bag mode GLORY glory_2.01";
+"63
+[; ;glory.c: 63: char MsgPersonalidad1[] = "bag mode GLORY glory_2.01";
 [v _MsgPersonalidad1 `uc ~T0 @X0 -> 26 `i e ]
 [i _MsgPersonalidad1
 :U ..
@@ -1101,8 +1089,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"63
-[; ;glory.c: 63: char MsgPersonalidad2[] = "new bag mode GLORY glory_2.1";
+"64
+[; ;glory.c: 64: char MsgPersonalidad2[] = "new bag mode GLORY glory_2.1";
 [v _MsgPersonalidad2 `uc ~T0 @X0 -> 29 `i e ]
 [i _MsgPersonalidad2
 :U ..
@@ -1137,8 +1125,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 0 `c
 ..
 ]
-"66
-[; ;glory.c: 66: int J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14;
+"67
+[; ;glory.c: 67: int J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14;
 [v _J1 `i ~T0 @X0 1 e ]
 [v _J2 `i ~T0 @X0 1 e ]
 [v _J3 `i ~T0 @X0 1 e ]
@@ -1153,2131 +1141,1591 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _J12 `i ~T0 @X0 1 e ]
 [v _J13 `i ~T0 @X0 1 e ]
 [v _J14 `i ~T0 @X0 1 e ]
-"68
-[; ;glory.c: 68: int StartUp;
+"69
+[; ;glory.c: 69: int StartUp;
 [v _StartUp `i ~T0 @X0 1 e ]
-"71
-[; ;glory.c: 71: char txt[5];
-[v _txt `uc ~T0 @X0 -> 5 `i e ]
 "72
-[; ;glory.c: 72: int Tiempo0;
-[v _Tiempo0 `i ~T0 @X0 1 e ]
+[; ;glory.c: 72: char txt[5];
+[v _txt `uc ~T0 @X0 -> 5 `i e ]
 "73
-[; ;glory.c: 73: int Tiempo1;
-[v _Tiempo1 `i ~T0 @X0 1 e ]
+[; ;glory.c: 73: int Tiempo0;
+[v _Tiempo0 `i ~T0 @X0 1 e ]
 "74
-[; ;glory.c: 74: int Tiempo2;
+[; ;glory.c: 74: int Tiempo1;
+[v _Tiempo1 `i ~T0 @X0 1 e ]
+"75
+[; ;glory.c: 75: int Tiempo2;
 [v _Tiempo2 `i ~T0 @X0 1 e ]
-"76
-[; ;glory.c: 76: int DelaySensor = 20;
+"77
+[; ;glory.c: 77: int DelaySensor = 20;
 [v _DelaySensor `i ~T0 @X0 1 e ]
 [i _DelaySensor
 -> 20 `i
 ]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"89
-[; ;glory.c: 89: void main(void) {
+"90
+[; ;glory.c: 90: void main(void) {
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"90
-[; ;glory.c: 90:     int i;
+"91
+[; ;glory.c: 91:     int i;
 [v _i `i ~T0 @X0 1 a ]
-"93
-[; ;glory.c: 93:     OSCCON=0b01110010;
-[e = _OSCCON -> -> 114 `i `uc ]
 "94
-[; ;glory.c: 94:     ADCON1=0b00001111;
-[e = _ADCON1 -> -> 15 `i `uc ]
+[; ;glory.c: 94:     OSCCON=0b01110010;
+[e = _OSCCON -> -> 114 `i `uc ]
 "95
-[; ;glory.c: 95:     TRISA=0b00000000;
-[e = _TRISA -> -> 0 `i `uc ]
+[; ;glory.c: 95:     ADCON1=0b00001111;
+[e = _ADCON1 -> -> 15 `i `uc ]
 "96
-[; ;glory.c: 96:     TRISB=0b11111111;
-[e = _TRISB -> -> 255 `i `uc ]
+[; ;glory.c: 96:     TRISA=0b00000000;
+[e = _TRISA -> -> 0 `i `uc ]
 "97
-[; ;glory.c: 97:     TRISC=0b10010000;
-[e = _TRISC -> -> 144 `i `uc ]
+[; ;glory.c: 97:     TRISB=0b11111111;
+[e = _TRISB -> -> 255 `i `uc ]
 "98
-[; ;glory.c: 98:     TRISD=0b11111111;
-[e = _TRISD -> -> 255 `i `uc ]
+[; ;glory.c: 98:     TRISC=0b10010000;
+[e = _TRISC -> -> 144 `i `uc ]
 "99
-[; ;glory.c: 99:     TRISE=0b00000000;
+[; ;glory.c: 99:     TRISD=0b11111111;
+[e = _TRISD -> -> 255 `i `uc ]
+"100
+[; ;glory.c: 100:     TRISE=0b00000000;
 [e = _TRISE -> -> 0 `i `uc ]
-"101
-[; ;glory.c: 101:     T0CON=0x81;
-[e = _T0CON -> -> 129 `i `uc ]
 "102
-[; ;glory.c: 102:     TMR0H=0x3C;
-[e = _TMR0H -> -> 60 `i `uc ]
+[; ;glory.c: 102:     T0CON=0x81;
+[e = _T0CON -> -> 129 `i `uc ]
 "103
-[; ;glory.c: 103:     TMR0L=0xB0;
-[e = _TMR0L -> -> 176 `i `uc ]
+[; ;glory.c: 103:     TMR0H=0x3C;
+[e = _TMR0H -> -> 60 `i `uc ]
 "104
-[; ;glory.c: 104:     TMR0IF=0;
-[e = _TMR0IF -> -> 0 `i `b ]
+[; ;glory.c: 104:     TMR0L=0xB0;
+[e = _TMR0L -> -> 176 `i `uc ]
 "105
-[; ;glory.c: 105:     TMR0IE=0;
+[; ;glory.c: 105:     TMR0IF=0;
+[e = _TMR0IF -> -> 0 `i `b ]
+"106
+[; ;glory.c: 106:     TMR0IE=0;
 [e = _TMR0IE -> -> 0 `i `b ]
-"107
-[; ;glory.c: 107:     T1CON=0x01;
-[e = _T1CON -> -> 1 `i `uc ]
 "108
-[; ;glory.c: 108:     TMR1H=0xB1;
-[e = _TMR1H -> -> 177 `i `uc ]
-"109
-[; ;glory.c: 109:     TMR1L=0xE0;
-[e = _TMR1L -> -> 224 `i `uc ]
+[; ;glory.c: 108:     T1CON=0x01;
+[e = _T1CON -> -> 1 `i `uc ]
 "111
-[; ;glory.c: 111:     T2CON=0x26;
-[e = _T2CON -> -> 38 `i `uc ]
+[; ;glory.c: 111:     TMR1H=0xB1;
+[e = _TMR1H -> -> 177 `i `uc ]
 "112
-[; ;glory.c: 112:     PR2=250;
-[e = _PR2 -> -> 250 `i `uc ]
+[; ;glory.c: 112:     TMR1L=0xE0;
+[e = _TMR1L -> -> 224 `i `uc ]
+"114
+[; ;glory.c: 114:     T2CON=0x26;
+[e = _T2CON -> -> 38 `i `uc ]
 "115
-[; ;glory.c: 115:     LATA2=0;
+[; ;glory.c: 115:     PR2=250;
+[e = _PR2 -> -> 250 `i `uc ]
+"118
+[; ;glory.c: 118:     LATA2=0;
 [e = _LATA2 -> -> 0 `i `b ]
-"116
-[; ;glory.c: 116:     LATC1=0;
+"119
+[; ;glory.c: 119:     LATC1=0;
 [e = _LATC1 -> -> 0 `i `b ]
-"117
-[; ;glory.c: 117:     LATC2=0;
-[e = _LATC2 -> -> 0 `i `b ]
 "120
-[; ;glory.c: 120:     J1=1;
-[e = _J1 -> 1 `i ]
-"121
-[; ;glory.c: 121:     J2=1;
-[e = _J2 -> 1 `i ]
-"122
-[; ;glory.c: 122:     J3=1;
-[e = _J3 -> 1 `i ]
+[; ;glory.c: 120:     LATC2=0;
+[e = _LATC2 -> -> 0 `i `b ]
 "123
-[; ;glory.c: 123:     J4=1;
-[e = _J4 -> 1 `i ]
+[; ;glory.c: 123:     J1=1;
+[e = _J1 -> 1 `i ]
 "124
-[; ;glory.c: 124:     J5=1;
-[e = _J5 -> 1 `i ]
+[; ;glory.c: 124:     J2=1;
+[e = _J2 -> 1 `i ]
 "125
-[; ;glory.c: 125:     J6=1;
-[e = _J6 -> 1 `i ]
+[; ;glory.c: 125:     J3=1;
+[e = _J3 -> 1 `i ]
 "126
-[; ;glory.c: 126:     J7=1;
-[e = _J7 -> 1 `i ]
+[; ;glory.c: 126:     J4=1;
+[e = _J4 -> 1 `i ]
 "127
-[; ;glory.c: 127:     J8=1;
-[e = _J8 -> 1 `i ]
+[; ;glory.c: 127:     J5=1;
+[e = _J5 -> 1 `i ]
 "128
-[; ;glory.c: 128:     J9=1;
-[e = _J9 -> 1 `i ]
+[; ;glory.c: 128:     J6=1;
+[e = _J6 -> 1 `i ]
 "129
-[; ;glory.c: 129:     J10=1;
-[e = _J10 -> 1 `i ]
+[; ;glory.c: 129:     J7=1;
+[e = _J7 -> 1 `i ]
 "130
-[; ;glory.c: 130:     J11=1;
-[e = _J11 -> 1 `i ]
+[; ;glory.c: 130:     J8=1;
+[e = _J8 -> 1 `i ]
 "131
-[; ;glory.c: 131:     J12=1;
-[e = _J12 -> 1 `i ]
+[; ;glory.c: 131:     J9=1;
+[e = _J9 -> 1 `i ]
 "132
-[; ;glory.c: 132:     J13=1;
-[e = _J13 -> 1 `i ]
+[; ;glory.c: 132:     J10=1;
+[e = _J10 -> 1 `i ]
 "133
-[; ;glory.c: 133:     J14=1;
-[e = _J14 -> 1 `i ]
+[; ;glory.c: 133:     J11=1;
+[e = _J11 -> 1 `i ]
 "134
-[; ;glory.c: 134:     J6=PORTDbits.RD3;
-[e = _J6 -> . . _PORTDbits 0 3 `i ]
+[; ;glory.c: 134:     J12=1;
+[e = _J12 -> 1 `i ]
 "135
-[; ;glory.c: 135:     J13=PORTDbits.RD2;
-[e = _J13 -> . . _PORTDbits 0 2 `i ]
+[; ;glory.c: 135:     J13=1;
+[e = _J13 -> 1 `i ]
+"136
+[; ;glory.c: 136:     J14=1;
+[e = _J14 -> 1 `i ]
 "137
-[; ;glory.c: 137:     StartUp=1;
-[e = _StartUp -> 1 `i ]
+[; ;glory.c: 137:     J6=PORTDbits.RD3;
+[e = _J6 -> . . _PORTDbits 0 3 `i ]
 "138
-[; ;glory.c: 138:     ValorStateE=0;
-[e = _ValorStateE -> 0 `i ]
-"139
-[; ;glory.c: 139:     ValorStateShutter=0;
-[e = _ValorStateShutter -> 0 `i ]
+[; ;glory.c: 138:     J13=PORTDbits.RD2;
+[e = _J13 -> . . _PORTDbits 0 2 `i ]
 "140
-[; ;glory.c: 140:     ValorStateLock=0;
-[e = _ValorStateLock -> 0 `i ]
+[; ;glory.c: 140:     StartUp=1;
+[e = _StartUp -> 1 `i ]
 "141
-[; ;glory.c: 141:     ValorBagSensor=0;
-[e = _ValorBagSensor -> 0 `i ]
+[; ;glory.c: 141:     ValorStateE=0;
+[e = _ValorStateE -> 0 `i ]
 "142
-[; ;glory.c: 142:     ValorBagStatus=0;
-[e = _ValorBagStatus -> 0 `i ]
+[; ;glory.c: 142:     ValorStateShutter=0;
+[e = _ValorStateShutter -> 0 `i ]
 "143
-[; ;glory.c: 143:     ValorBag=99;
-[e = _ValorBag -> 99 `i ]
+[; ;glory.c: 143:     ValorStateLock=0;
+[e = _ValorStateLock -> 0 `i ]
 "144
-[; ;glory.c: 144:     EstadoAprobacionBolsa=0;
-[e = _EstadoAprobacionBolsa -> 0 `i ]
+[; ;glory.c: 144:     ValorBagSensor=0;
+[e = _ValorBagSensor -> 0 `i ]
 "145
-[; ;glory.c: 145:     Counter=0;
-[e = _Counter -> 0 `i ]
+[; ;glory.c: 145:     ValorBagStatus=0;
+[e = _ValorBagStatus -> 0 `i ]
+"146
+[; ;glory.c: 146:     ValorBag=99;
+[e = _ValorBag -> 99 `i ]
 "147
-[; ;glory.c: 147:     PulsoArriba=0;
-[e = _PulsoArriba -> 0 `i ]
+[; ;glory.c: 147:     EstadoAprobacionBolsa=0;
+[e = _EstadoAprobacionBolsa -> 0 `i ]
 "148
-[; ;glory.c: 148:     TiempoPulso=0;
-[e = _TiempoPulso -> 0 `i ]
-"149
-[; ;glory.c: 149:     PulsoArribaBuzzer=0;
-[e = _PulsoArribaBuzzer -> 0 `i ]
+[; ;glory.c: 148:     Counter=0;
+[e = _Counter -> 0 `i ]
 "150
-[; ;glory.c: 150:     TiempoPulsoBuzzer=0;
-[e = _TiempoPulsoBuzzer -> 0 `i ]
+[; ;glory.c: 150:     PulsoArriba=0;
+[e = _PulsoArriba -> 0 `i ]
+"151
+[; ;glory.c: 151:     TiempoPulso=0;
+[e = _TiempoPulso -> 0 `i ]
+"152
+[; ;glory.c: 152:     PulsoArribaBuzzer=0;
+[e = _PulsoArribaBuzzer -> 0 `i ]
 "153
-[; ;glory.c: 153:     USART_Init(38400);
-[e ( _USART_Init (1 -> 38400 `l ]
-"155
-[; ;glory.c: 155:     GIE = 1;
-[e = _GIE -> -> 1 `i `b ]
+[; ;glory.c: 153:     TiempoPulsoBuzzer=0;
+[e = _TiempoPulsoBuzzer -> 0 `i ]
 "156
-[; ;glory.c: 156:     PEIE = 1;
+[; ;glory.c: 156:     USART_Init(38400);
+[e ( _USART_Init (1 -> 38400 `l ]
+"158
+[; ;glory.c: 158:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"159
+[; ;glory.c: 159:     PEIE = 1;
 [e = _PEIE -> -> 1 `i `b ]
-"157
-[; ;glory.c: 157:     RCIE = 1;
-[e = _RCIE -> -> 1 `i `b ]
 "160
-[; ;glory.c: 160:     for(i=0;i<=50;i++)
+[; ;glory.c: 160:     RCIE = 1;
+[e = _RCIE -> -> 1 `i `b ]
+"163
+[; ;glory.c: 163:     for(i=0;i<=50;i++)
 {
 [e = _i -> 0 `i ]
 [e $ <= _i -> 50 `i 285  ]
 [e $U 286  ]
 [e :U 285 ]
-"161
-[; ;glory.c: 161:     {
-{
-"162
-[; ;glory.c: 162:         USART_EnviaMsg(".");
-[e ( _USART_EnviaMsg (1 :s 1C ]
-"163
-[; ;glory.c: 163:         _delay((unsigned long)((30)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "164
-[; ;glory.c: 164:     }
+[; ;glory.c: 164:     {
+{
+"165
+[; ;glory.c: 165:         USART_EnviaMsg(".");
+[e ( _USART_EnviaMsg (1 :s 1C ]
+"166
+[; ;glory.c: 166:         _delay((unsigned long)((30)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"167
+[; ;glory.c: 167:     }
 }
 [e ++ _i -> 1 `i ]
 [e $ <= _i -> 50 `i 285  ]
 [e :U 286 ]
 }
-"166
-[; ;glory.c: 166:     ValorStateShutter=3;
-[e = _ValorStateShutter -> 3 `i ]
-"167
-[; ;glory.c: 167:     LATE0=1;
-[e = _LATE0 -> -> 1 `i `b ]
 "168
-[; ;glory.c: 168:     LATA5=0;
-[e = _LATA5 -> -> 0 `i `b ]
-"169
-[; ;glory.c: 169:     LATC1=1;
-[e = _LATC1 -> -> 1 `i `b ]
-"170
-[; ;glory.c: 170:     Tiempo1=0;
-[e = _Tiempo1 -> 0 `i ]
-"171
-[; ;glory.c: 171:     TMR1H=0xB1;
-[e = _TMR1H -> -> 177 `i `uc ]
-"172
-[; ;glory.c: 172:     TMR1L=0xE0;
-[e = _TMR1L -> -> 224 `i `uc ]
-"173
-[; ;glory.c: 173:     TMR1IF=0;
-[e = _TMR1IF -> -> 0 `i `b ]
-"174
-[; ;glory.c: 174:     TMR1IE=1;
-[e = _TMR1IE -> -> 1 `i `b ]
-"175
-[; ;glory.c: 175:     USART_EnviaMsg("START CLOSE");
+[; ;glory.c: 168:    USART_EnviaMsg(" ");
 [e ( _USART_EnviaMsg (1 :s 2C ]
-"176
-[; ;glory.c: 176:     USART_EnviaMsg(CRLF);
+"169
+[; ;glory.c: 169:    USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
-"177
-[; ;glory.c: 177:     USART_EnviaMsg("WARNING CLOSE SENSOR DISABLED");
+"170
+[; ;glory.c: 170:    USART_EnviaMsg("   IOBOARD SCREW !!!");
 [e ( _USART_EnviaMsg (1 :s 3C ]
-"178
-[; ;glory.c: 178:     USART_EnviaMsg(CRLF);
+"171
+[; ;glory.c: 171:    USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
-"179
-[; ;glory.c: 179:     ModoTrabajo = 0;
-[e = _ModoTrabajo -> 0 `i ]
-"180
-[; ;glory.c: 180:     if ((PORTBbits.RB5==0) )
-[e $ ! == -> . . _PORTBbits 0 5 `i -> 0 `i 288  ]
-"181
-[; ;glory.c: 181:         {
-{
-"182
-[; ;glory.c: 182:             ModoTrabajo = 1;
-[e = _ModoTrabajo -> 1 `i ]
-"183
-[; ;glory.c: 183:             USART_EnviaMsg("ModoDirecto configurado");
+"172
+[; ;glory.c: 172:    USART_EnviaMsg("********************************");
 [e ( _USART_EnviaMsg (1 :s 4C ]
-"184
-[; ;glory.c: 184:             USART_EnviaMsg(CRLF);
+"173
+[; ;glory.c: 173:    USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
-"185
-[; ;glory.c: 185:         }
-}
-[e $U 289  ]
-"186
-[; ;glory.c: 186:     else {
-[e :U 288 ]
-{
-"187
-[; ;glory.c: 187:         USART_EnviaMsg("Modo indirecto");
+"174
+[; ;glory.c: 174:    USART_EnviaMsg("  -By PERMAQUIM SPA");
 [e ( _USART_EnviaMsg (1 :s 5C ]
-"188
-[; ;glory.c: 188:         USART_EnviaMsg(CRLF);
+"175
+[; ;glory.c: 175:    USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
-"189
-[; ;glory.c: 189:     }
-}
-[e :U 289 ]
+"176
+[; ;glory.c: 176:    USART_EnviaMsg(" ");
+[e ( _USART_EnviaMsg (1 :s 6C ]
+"177
+[; ;glory.c: 177:    USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"178
+[; ;glory.c: 178:    USART_EnviaMsg("  -For BRINKS CHILE");
+[e ( _USART_EnviaMsg (1 :s 7C ]
+"179
+[; ;glory.c: 179:    USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"180
+[; ;glory.c: 180:    USART_EnviaMsg(" ");
+[e ( _USART_EnviaMsg (1 :s 8C ]
+"181
+[; ;glory.c: 181:    USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"182
+[; ;glory.c: 182:    USART_EnviaMsg("   -Version: 2.3.1");
+[e ( _USART_EnviaMsg (1 :s 9C ]
+"183
+[; ;glory.c: 183:    USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"184
+[; ;glory.c: 184:    USART_EnviaMsg("********************************");
+[e ( _USART_EnviaMsg (1 :s 10C ]
+"185
+[; ;glory.c: 185:    USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"186
+[; ;glory.c: 186:    _delay((unsigned long)((30)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "190
-[; ;glory.c: 190:     while(1)
-[e :U 291 ]
+[; ;glory.c: 190:     ValorStateShutter=3;
+[e = _ValorStateShutter -> 3 `i ]
 "191
-[; ;glory.c: 191:     {
-{
+[; ;glory.c: 191:     LATE0=1;
+[e = _LATE0 -> -> 1 `i `b ]
+"192
+[; ;glory.c: 192:     LATA5=0;
+[e = _LATA5 -> -> 0 `i `b ]
+"193
+[; ;glory.c: 193:     LATC1=1;
+[e = _LATC1 -> -> 1 `i `b ]
 "194
-[; ;glory.c: 194:             if ((PORTBbits.RB4 == 0) && (J8 == 1))
-[e $ ! && == -> . . _PORTBbits 0 4 `i -> 0 `i == _J8 -> 1 `i 293  ]
+[; ;glory.c: 194:     Tiempo1=0;
+[e = _Tiempo1 -> 0 `i ]
 "195
-[; ;glory.c: 195:             {
-{
+[; ;glory.c: 195:     TMR1H=0xB1;
+[e = _TMR1H -> -> 177 `i `uc ]
 "196
-[; ;glory.c: 196:                 _delay((unsigned long)((100)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[; ;glory.c: 196:     TMR1L=0xE0;
+[e = _TMR1L -> -> 224 `i `uc ]
 "197
-[; ;glory.c: 197:                 if (PORTBbits.RB4 == 0)
-[e $ ! == -> . . _PORTBbits 0 4 `i -> 0 `i 294  ]
+[; ;glory.c: 197:     TMR1IF=0;
+[e = _TMR1IF -> -> 0 `i `b ]
 "198
-[; ;glory.c: 198:                 {
-{
+[; ;glory.c: 198:     TMR1IE=1;
+[e = _TMR1IE -> -> 1 `i `b ]
 "199
-[; ;glory.c: 199:                     J8 = 0;
-[e = _J8 -> 0 `i ]
+[; ;glory.c: 199:     USART_EnviaMsg("START CLOSE");
+[e ( _USART_EnviaMsg (1 :s 11C ]
 "200
-[; ;glory.c: 200:                 }
-}
-[e :U 294 ]
+[; ;glory.c: 200:     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
 "201
-[; ;glory.c: 201:             }
-}
-[e :U 293 ]
+[; ;glory.c: 201:     USART_EnviaMsg("WARNING CLOSE SENSOR DISABLED");
+[e ( _USART_EnviaMsg (1 :s 12C ]
 "202
-[; ;glory.c: 202:             if (PORTBbits.RB4 == 1)
-[e $ ! == -> . . _PORTBbits 0 4 `i -> 1 `i 295  ]
+[; ;glory.c: 202:     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
 "203
-[; ;glory.c: 203:                 J8 = 1;
-[e = _J8 -> 1 `i ]
-[e :U 295 ]
-"205
-[; ;glory.c: 205:             if ((PORTDbits.RD3 == 0) && (J6 == 1))
-[e $ ! && == -> . . _PORTDbits 0 3 `i -> 0 `i == _J6 -> 1 `i 296  ]
-"206
-[; ;glory.c: 206:             {
-{
-"207
-[; ;glory.c: 207:                 _delay((unsigned long)((100)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"208
-[; ;glory.c: 208:                 if (PORTDbits.RD3 == 0)
-[e $ ! == -> . . _PORTDbits 0 3 `i -> 0 `i 297  ]
-"209
-[; ;glory.c: 209:                 {
-{
-"210
-[; ;glory.c: 210:                     J6 = 0;
-[e = _J6 -> 0 `i ]
-"211
-[; ;glory.c: 211:                 }
-}
-[e :U 297 ]
-"212
-[; ;glory.c: 212:             }
-}
-[e :U 296 ]
-"213
-[; ;glory.c: 213:              if (PORTDbits.RD3 == 1)
-[e $ ! == -> . . _PORTDbits 0 3 `i -> 1 `i 298  ]
+[; ;glory.c: 203:     ModoTrabajo = 0;
+[e = _ModoTrabajo -> 0 `i ]
 "214
-[; ;glory.c: 214:                J6 = 1;
-[e = _J6 -> 1 `i ]
-[e :U 298 ]
-"216
-[; ;glory.c: 216:             if ((PORTDbits.RD2 == 0) && (J13 == 1))
-[e $ ! && == -> . . _PORTDbits 0 2 `i -> 0 `i == _J13 -> 1 `i 299  ]
-"217
-[; ;glory.c: 217:             {
+[; ;glory.c: 214:     while(1)
+[e :U 289 ]
+"215
+[; ;glory.c: 215:     {
 {
 "218
-[; ;glory.c: 218:                 _delay((unsigned long)((100)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[; ;glory.c: 218:             if ((PORTBbits.RB4 == 0) && (J8 == 1))
+[e $ ! && == -> . . _PORTBbits 0 4 `i -> 0 `i == _J8 -> 1 `i 291  ]
 "219
-[; ;glory.c: 219:                 if (PORTDbits.RD2 == 0)
-[e $ ! == -> . . _PORTDbits 0 2 `i -> 0 `i 300  ]
-"220
-[; ;glory.c: 220:                 {
+[; ;glory.c: 219:             {
 {
+"220
+[; ;glory.c: 220:                 _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "221
-[; ;glory.c: 221:                     J13 = 0;
-[e = _J13 -> 0 `i ]
+[; ;glory.c: 221:                 if (PORTBbits.RB4 == 0)
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 0 `i 292  ]
 "222
-[; ;glory.c: 222:                 }
+[; ;glory.c: 222:                 {
+{
+"223
+[; ;glory.c: 223:                     J8 = 0;
+[e = _J8 -> 0 `i ]
+"224
+[; ;glory.c: 224:                 }
+}
+[e :U 292 ]
+"225
+[; ;glory.c: 225:             }
+}
+[e :U 291 ]
+"226
+[; ;glory.c: 226:             if (PORTBbits.RB4 == 1)
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 1 `i 293  ]
+"227
+[; ;glory.c: 227:                 J8 = 1;
+[e = _J8 -> 1 `i ]
+[e :U 293 ]
+"229
+[; ;glory.c: 229:             if ((PORTDbits.RD3 == 0) && (J6 == 1))
+[e $ ! && == -> . . _PORTDbits 0 3 `i -> 0 `i == _J6 -> 1 `i 294  ]
+"230
+[; ;glory.c: 230:             {
+{
+"231
+[; ;glory.c: 231:                 _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"232
+[; ;glory.c: 232:                 if (PORTDbits.RD3 == 0)
+[e $ ! == -> . . _PORTDbits 0 3 `i -> 0 `i 295  ]
+"233
+[; ;glory.c: 233:                 {
+{
+"234
+[; ;glory.c: 234:                     J6 = 0;
+[e = _J6 -> 0 `i ]
+"235
+[; ;glory.c: 235:                 }
+}
+[e :U 295 ]
+"236
+[; ;glory.c: 236:             }
+}
+[e :U 294 ]
+"237
+[; ;glory.c: 237:              if (PORTDbits.RD3 == 1)
+[e $ ! == -> . . _PORTDbits 0 3 `i -> 1 `i 296  ]
+"238
+[; ;glory.c: 238:                J6 = 1;
+[e = _J6 -> 1 `i ]
+[e :U 296 ]
+"240
+[; ;glory.c: 240:             if ((PORTDbits.RD2 == 0) && (J13 == 1))
+[e $ ! && == -> . . _PORTDbits 0 2 `i -> 0 `i == _J13 -> 1 `i 297  ]
+"241
+[; ;glory.c: 241:             {
+{
+"242
+[; ;glory.c: 242:                 _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"243
+[; ;glory.c: 243:                 if (PORTDbits.RD2 == 0)
+[e $ ! == -> . . _PORTDbits 0 2 `i -> 0 `i 298  ]
+"244
+[; ;glory.c: 244:                 {
+{
+"245
+[; ;glory.c: 245:                     J13 = 0;
+[e = _J13 -> 0 `i ]
+"246
+[; ;glory.c: 246:                 }
+}
+[e :U 298 ]
+"247
+[; ;glory.c: 247:             }
+}
+[e :U 297 ]
+"248
+[; ;glory.c: 248:             if (PORTDbits.RD2 == 1)
+[e $ ! == -> . . _PORTDbits 0 2 `i -> 1 `i 299  ]
+"249
+[; ;glory.c: 249:                 J13 = 1;
+[e = _J13 -> 1 `i ]
+[e :U 299 ]
+"252
+[; ;glory.c: 252:             if ((PuertaAbierta == 0 && J8 == 1) || (StartUp == 1 && J8 == 1))
+[e $ ! || && == _PuertaAbierta -> 0 `i == _J8 -> 1 `i && == _StartUp -> 1 `i == _J8 -> 1 `i 300  ]
+"253
+[; ;glory.c: 253:             {
+{
+"254
+[; ;glory.c: 254:                 PuertaAbierta = 1;
+[e = _PuertaAbierta -> 1 `i ]
+"255
+[; ;glory.c: 255:                 USART_EnviaMsg("CRITICAL: door open");
+[e ( _USART_EnviaMsg (1 :s 13C ]
+"256
+[; ;glory.c: 256:                 USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"257
+[; ;glory.c: 257:                 if (TMR0IE == 1)
+[e $ ! == -> _TMR0IE `i -> 1 `i 301  ]
+"258
+[; ;glory.c: 258:                 {
+{
+"259
+[; ;glory.c: 259:                     ValorStateLock = 0;
+[e = _ValorStateLock -> 0 `i ]
+"260
+[; ;glory.c: 260:                     TMR0IE = 0;
+[e = _TMR0IE -> -> 0 `i `b ]
+"261
+[; ;glory.c: 261:                     LATA2 = 0;
+[e = _LATA2 -> -> 0 `i `b ]
+"262
+[; ;glory.c: 262:                     LATA1 = 0;
+[e = _LATA1 -> -> 0 `i `b ]
+"263
+[; ;glory.c: 263:                     LATA0 = 0;
+[e = _LATA0 -> -> 0 `i `b ]
+"264
+[; ;glory.c: 264:                     USART_EnviaMsg("CRITICAL: door locked");
+[e ( _USART_EnviaMsg (1 :s 14C ]
+"265
+[; ;glory.c: 265:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"266
+[; ;glory.c: 266:                 }
+}
+[e :U 301 ]
+"267
+[; ;glory.c: 267:             }
 }
 [e :U 300 ]
-"223
-[; ;glory.c: 223:             }
-}
-[e :U 299 ]
-"224
-[; ;glory.c: 224:             if (PORTDbits.RD2 == 1)
-[e $ ! == -> . . _PORTDbits 0 2 `i -> 1 `i 301  ]
-"225
-[; ;glory.c: 225:                 J13 = 1;
-[e = _J13 -> 1 `i ]
-[e :U 301 ]
-"228
-[; ;glory.c: 228:             if ((PuertaAbierta == 0 && J8 == 1) || (StartUp == 1 && J8 == 1))
-[e $ ! || && == _PuertaAbierta -> 0 `i == _J8 -> 1 `i && == _StartUp -> 1 `i == _J8 -> 1 `i 302  ]
-"229
-[; ;glory.c: 229:             {
+"269
+[; ;glory.c: 269:             if ((PuertaAbierta == 1 && J8 == 0) || (StartUp == 1 && J8 == 0))
+[e $ ! || && == _PuertaAbierta -> 1 `i == _J8 -> 0 `i && == _StartUp -> 1 `i == _J8 -> 0 `i 302  ]
+"270
+[; ;glory.c: 270:             {
 {
-"230
-[; ;glory.c: 230:                 PuertaAbierta = 1;
-[e = _PuertaAbierta -> 1 `i ]
-"231
-[; ;glory.c: 231:                 USART_EnviaMsg("CRITICAL: door open");
-[e ( _USART_EnviaMsg (1 :s 6C ]
-"232
-[; ;glory.c: 232:                 USART_EnviaMsg(CRLF);
+"271
+[; ;glory.c: 271:                 PuertaAbierta = 0;
+[e = _PuertaAbierta -> 0 `i ]
+"272
+[; ;glory.c: 272:                 USART_EnviaMsg("CRITICAL: door closed");
+[e ( _USART_EnviaMsg (1 :s 15C ]
+"273
+[; ;glory.c: 273:                 USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
-"233
-[; ;glory.c: 233:                 if (TMR0IE == 1)
+"274
+[; ;glory.c: 274:                 if (TMR0IE == 1)
 [e $ ! == -> _TMR0IE `i -> 1 `i 303  ]
-"234
-[; ;glory.c: 234:                 {
+"275
+[; ;glory.c: 275:                 {
 {
-"235
-[; ;glory.c: 235:                     ValorStateLock = 0;
+"276
+[; ;glory.c: 276:                     ValorStateLock = 0;
 [e = _ValorStateLock -> 0 `i ]
-"236
-[; ;glory.c: 236:                     TMR0IE = 0;
+"277
+[; ;glory.c: 277:                     TMR0IE = 0;
 [e = _TMR0IE -> -> 0 `i `b ]
-"237
-[; ;glory.c: 237:                     LATA2 = 0;
+"278
+[; ;glory.c: 278:                     LATA2 = 0;
 [e = _LATA2 -> -> 0 `i `b ]
-"238
-[; ;glory.c: 238:                     LATA1 = 0;
+"279
+[; ;glory.c: 279:                     LATA1 = 0;
 [e = _LATA1 -> -> 0 `i `b ]
-"239
-[; ;glory.c: 239:                     LATA0 = 0;
+"280
+[; ;glory.c: 280:                     LATA0 = 0;
 [e = _LATA0 -> -> 0 `i `b ]
-"240
-[; ;glory.c: 240:                     USART_EnviaMsg("CRITICAL: door locked");
-[e ( _USART_EnviaMsg (1 :s 7C ]
-"241
-[; ;glory.c: 241:                     USART_EnviaMsg(CRLF);
+"281
+[; ;glory.c: 281:                     USART_EnviaMsg("CRITICAL: door locked");
+[e ( _USART_EnviaMsg (1 :s 16C ]
+"282
+[; ;glory.c: 282:                     USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
-"242
-[; ;glory.c: 242:                 }
+"283
+[; ;glory.c: 283:                 }
 }
 [e :U 303 ]
-"243
-[; ;glory.c: 243:             }
+"284
+[; ;glory.c: 284:             }
 }
 [e :U 302 ]
-"245
-[; ;glory.c: 245:             if ((PuertaAbierta == 1 && J8 == 0) || (StartUp == 1 && J8 == 0))
-[e $ ! || && == _PuertaAbierta -> 1 `i == _J8 -> 0 `i && == _StartUp -> 1 `i == _J8 -> 0 `i 304  ]
-"246
-[; ;glory.c: 246:             {
-{
-"247
-[; ;glory.c: 247:                 PuertaAbierta = 0;
-[e = _PuertaAbierta -> 0 `i ]
-"248
-[; ;glory.c: 248:                 USART_EnviaMsg("CRITICAL: door closed");
-[e ( _USART_EnviaMsg (1 :s 8C ]
-"249
-[; ;glory.c: 249:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"250
-[; ;glory.c: 250:                 if (TMR0IE == 1)
-[e $ ! == -> _TMR0IE `i -> 1 `i 305  ]
-"251
-[; ;glory.c: 251:                 {
-{
-"252
-[; ;glory.c: 252:                     ValorStateLock = 0;
-[e = _ValorStateLock -> 0 `i ]
-"253
-[; ;glory.c: 253:                     TMR0IE = 0;
-[e = _TMR0IE -> -> 0 `i `b ]
-"254
-[; ;glory.c: 254:                     LATA2 = 0;
-[e = _LATA2 -> -> 0 `i `b ]
-"255
-[; ;glory.c: 255:                     LATA1 = 0;
-[e = _LATA1 -> -> 0 `i `b ]
-"256
-[; ;glory.c: 256:                     LATA0 = 0;
-[e = _LATA0 -> -> 0 `i `b ]
-"257
-[; ;glory.c: 257:                     USART_EnviaMsg("CRITICAL: door locked");
-[e ( _USART_EnviaMsg (1 :s 9C ]
-"258
-[; ;glory.c: 258:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"259
-[; ;glory.c: 259:                 }
-}
-[e :U 305 ]
-"260
-[; ;glory.c: 260:             }
-}
-[e :U 304 ]
+"288
+[; ;glory.c: 288:         if (ModoTrabajo == 0)
+[e $ ! == _ModoTrabajo -> 0 `i 304  ]
 "289
-[; ;glory.c: 289:         if (ModoTrabajo == 0)
-[e $ ! == _ModoTrabajo -> 0 `i 306  ]
-"290
-[; ;glory.c: 290:         {
+[; ;glory.c: 289:         {
 {
-"292
-[; ;glory.c: 292:             ValorStateE = (J8 * 4) + (J9 * 2) + J2;
+"291
+[; ;glory.c: 291:             ValorStateE = (J8 * 4) + (J9 * 2) + J2;
 [e = _ValorStateE + + * _J8 -> 4 `i * _J9 -> 2 `i _J2 ]
-"294
-[; ;glory.c: 294:             ValorBagSensor = (J6 * 2) + J13;
+"293
+[; ;glory.c: 293:             ValorBagSensor = (J6 * 2) + J13;
 [e = _ValorBagSensor + * _J6 -> 2 `i _J13 ]
+"295
+[; ;glory.c: 295:             if (J6 == 1 && J13 == 1)
+[e $ ! && == _J6 -> 1 `i == _J13 -> 1 `i 305  ]
 "296
-[; ;glory.c: 296:             if (J6 == 1 && J13 == 1)
-[e $ ! && == _J6 -> 1 `i == _J13 -> 1 `i 307  ]
-"297
-[; ;glory.c: 297:                 ValorBagStatus = 2;
+[; ;glory.c: 296:                 ValorBagStatus = 2;
 [e = _ValorBagStatus -> 2 `i ]
-[e :U 307 ]
+[e :U 305 ]
+"297
+[; ;glory.c: 297:             if (J6 == 0 && J13 == 1)
+[e $ ! && == _J6 -> 0 `i == _J13 -> 1 `i 306  ]
 "298
-[; ;glory.c: 298:             if (J6 == 0 && J13 == 1)
-[e $ ! && == _J6 -> 0 `i == _J13 -> 1 `i 308  ]
+[; ;glory.c: 298:                 ValorBagStatus = 0;
+[e = _ValorBagStatus -> 0 `i ]
+[e :U 306 ]
 "299
-[; ;glory.c: 299:                 ValorBagStatus = 0;
+[; ;glory.c: 299:             if (J6 == 0 && J13 == 0)
+[e $ ! && == _J6 -> 0 `i == _J13 -> 0 `i 307  ]
+"300
+[; ;glory.c: 300:                 ValorBagStatus = 1;
+[e = _ValorBagStatus -> 1 `i ]
+[e :U 307 ]
+"301
+[; ;glory.c: 301:             if (J6 == 1 && J13 == 0)
+[e $ ! && == _J6 -> 1 `i == _J13 -> 0 `i 308  ]
+"302
+[; ;glory.c: 302:                 ValorBagStatus = 0;
 [e = _ValorBagStatus -> 0 `i ]
 [e :U 308 ]
-"300
-[; ;glory.c: 300:             if (J6 == 0 && J13 == 0)
-[e $ ! && == _J6 -> 0 `i == _J13 -> 0 `i 309  ]
-"301
-[; ;glory.c: 301:                 ValorBagStatus = 1;
-[e = _ValorBagStatus -> 1 `i ]
-[e :U 309 ]
-"302
-[; ;glory.c: 302:             if (J6 == 1 && J13 == 0)
-[e $ ! && == _J6 -> 1 `i == _J13 -> 0 `i 310  ]
-"303
-[; ;glory.c: 303:                 ValorBagStatus = 0;
-[e = _ValorBagStatus -> 0 `i ]
-[e :U 310 ]
+"309
+[; ;glory.c: 309:        if ((PORTDbits.RD3 == 0) && (J6 == 1))
+[e $ ! && == -> . . _PORTDbits 0 3 `i -> 0 `i == _J6 -> 1 `i 309  ]
 "310
-[; ;glory.c: 310:        if ((PORTDbits.RD3 == 0) && (J6 == 1))
-[e $ ! && == -> . . _PORTDbits 0 3 `i -> 0 `i == _J6 -> 1 `i 311  ]
+[; ;glory.c: 310:         {
+{
 "311
-[; ;glory.c: 311:         {
-{
-"312
-[; ;glory.c: 312:                 _delay((unsigned long)((100)*(8000000/4000.0)));
+[; ;glory.c: 311:                 _delay((unsigned long)((100)*(8000000/4000.0)));
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"312
+[; ;glory.c: 312:        if (PORTDbits.RD3 == 0)
+[e $ ! == -> . . _PORTDbits 0 3 `i -> 0 `i 310  ]
 "313
-[; ;glory.c: 313:        if (PORTDbits.RD3 == 0)
-[e $ ! == -> . . _PORTDbits 0 3 `i -> 0 `i 312  ]
-"314
-[; ;glory.c: 314:             {
+[; ;glory.c: 313:             {
 {
-"315
-[; ;glory.c: 315:             J6 = 0;
+"314
+[; ;glory.c: 314:             J6 = 0;
 [e = _J6 -> 0 `i ]
+"315
+[; ;glory.c: 315:             }
+}
+[e :U 310 ]
 "316
-[; ;glory.c: 316:             }
+[; ;glory.c: 316:         }
+}
+[e :U 309 ]
+"317
+[; ;glory.c: 317:       if (PORTDbits.RD3 == 1)
+[e $ ! == -> . . _PORTDbits 0 3 `i -> 1 `i 311  ]
+"318
+[; ;glory.c: 318:             J6 = 1;
+[e = _J6 -> 1 `i ]
+[e :U 311 ]
+"320
+[; ;glory.c: 320:       if ((PORTDbits.RD2 == 0) && (J13 == 1))
+[e $ ! && == -> . . _PORTDbits 0 2 `i -> 0 `i == _J13 -> 1 `i 312  ]
+"321
+[; ;glory.c: 321:         {
+{
+"322
+[; ;glory.c: 322:                 _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"323
+[; ;glory.c: 323:       if (PORTDbits.RD2 == 0)
+[e $ ! == -> . . _PORTDbits 0 2 `i -> 0 `i 313  ]
+"324
+[; ;glory.c: 324:             {
+{
+"325
+[; ;glory.c: 325:             J13 = 0;
+[e = _J13 -> 0 `i ]
+"326
+[; ;glory.c: 326:             }
+}
+[e :U 313 ]
+"327
+[; ;glory.c: 327:         }
 }
 [e :U 312 ]
-"317
-[; ;glory.c: 317:         }
-}
-[e :U 311 ]
-"318
-[; ;glory.c: 318:       if (PORTDbits.RD3 == 1)
-[e $ ! == -> . . _PORTDbits 0 3 `i -> 1 `i 313  ]
-"319
-[; ;glory.c: 319:             J6 = 1;
-[e = _J6 -> 1 `i ]
-[e :U 313 ]
-"321
-[; ;glory.c: 321:       if ((PORTDbits.RD2 == 0) && (J13 == 1))
-[e $ ! && == -> . . _PORTDbits 0 2 `i -> 0 `i == _J13 -> 1 `i 314  ]
-"322
-[; ;glory.c: 322:         {
+"328
+[; ;glory.c: 328:       if (PORTDbits.RD2 == 1)
+[e $ ! == -> . . _PORTDbits 0 2 `i -> 1 `i 314  ]
+"329
+[; ;glory.c: 329:                 J13 = 1;
+[e = _J13 -> 1 `i ]
+[e :U 314 ]
+"332
+[; ;glory.c: 332:       if (J13 == 0 && J6 == 0){
+[e $ ! && == _J13 -> 0 `i == _J6 -> 0 `i 315  ]
 {
-"323
-[; ;glory.c: 323:                 _delay((unsigned long)((100)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"324
-[; ;glory.c: 324:       if (PORTDbits.RD2 == 0)
-[e $ ! == -> . . _PORTDbits 0 2 `i -> 0 `i 315  ]
-"325
-[; ;glory.c: 325:             {
-{
-"326
-[; ;glory.c: 326:             J13 = 0;
-[e = _J13 -> 0 `i ]
-"327
-[; ;glory.c: 327:             }
+"333
+[; ;glory.c: 333:           ValorBag = 2;
+[e = _ValorBag -> 2 `i ]
+"336
+[; ;glory.c: 336:       }
 }
 [e :U 315 ]
-"328
-[; ;glory.c: 328:         }
-}
-[e :U 314 ]
-"329
-[; ;glory.c: 329:       if (PORTDbits.RD2 == 1)
-[e $ ! == -> . . _PORTDbits 0 2 `i -> 1 `i 316  ]
-"330
-[; ;glory.c: 330:                 J13 = 1;
-[e = _J13 -> 1 `i ]
-[e :U 316 ]
-"333
-[; ;glory.c: 333:       if (J13 == 0 && J6 == 0){
-[e $ ! && == _J13 -> 0 `i == _J6 -> 0 `i 317  ]
-{
-"334
-[; ;glory.c: 334:           ValorBag = 2;
-[e = _ValorBag -> 2 `i ]
 "337
-[; ;glory.c: 337:       }
+[; ;glory.c: 337:       if (J13 == 0 && J6 == 1){
+[e $ ! && == _J13 -> 0 `i == _J6 -> 1 `i 316  ]
+{
+"338
+[; ;glory.c: 338:           ValorBag = 0;
+[e = _ValorBag -> 0 `i ]
+"341
+[; ;glory.c: 341:       }
+}
+[e :U 316 ]
+"342
+[; ;glory.c: 342:       if (J13 == 1 && J6 == 0){
+[e $ ! && == _J13 -> 1 `i == _J6 -> 0 `i 317  ]
+{
+"343
+[; ;glory.c: 343:           ValorBag = 0;
+[e = _ValorBag -> 0 `i ]
+"346
+[; ;glory.c: 346:       }
 }
 [e :U 317 ]
-"338
-[; ;glory.c: 338:       if (J13 == 0 && J6 == 1){
-[e $ ! && == _J13 -> 0 `i == _J6 -> 1 `i 318  ]
+"347
+[; ;glory.c: 347:       if ((J13 && J6)== 1){
+[e $ ! == -> && != _J13 -> 0 `i != _J6 -> 0 `i `i -> 1 `i 318  ]
 {
-"339
-[; ;glory.c: 339:           ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-"342
-[; ;glory.c: 342:       }
+"348
+[; ;glory.c: 348:           ValorBag = 1;
+[e = _ValorBag -> 1 `i ]
+"351
+[; ;glory.c: 351:       }
 }
 [e :U 318 ]
-"343
-[; ;glory.c: 343:       if (J13 == 1 && J6 == 0){
-[e $ ! && == _J13 -> 1 `i == _J6 -> 0 `i 319  ]
-{
-"344
-[; ;glory.c: 344:           ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-"347
-[; ;glory.c: 347:       }
-}
-[e :U 319 ]
-"348
-[; ;glory.c: 348:       if ((J13 && J6)== 1){
-[e $ ! == -> && != _J13 -> 0 `i != _J6 -> 0 `i `i -> 1 `i 320  ]
-{
-"349
-[; ;glory.c: 349:           ValorBag = 1;
-[e = _ValorBag -> 1 `i ]
-"352
-[; ;glory.c: 352:       }
-}
-[e :U 320 ]
+"358
+[; ;glory.c: 358:             if ((ValorBag != 2 || J6 != 0) && (ValorStateLock == 0))
+[e $ ! && || != _ValorBag -> 2 `i != _J6 -> 0 `i == _ValorStateLock -> 0 `i 319  ]
 "359
-[; ;glory.c: 359:             if ((ValorBag != 2 || J6 != 0) && (ValorStateLock == 0))
-[e $ ! && || != _ValorBag -> 2 `i != _J6 -> 0 `i == _ValorStateLock -> 0 `i 321  ]
-"360
-[; ;glory.c: 360:             {
+[; ;glory.c: 359:             {
 {
-"361
-[; ;glory.c: 361:                 LATC2 = 1;
+"360
+[; ;glory.c: 360:                 LATC2 = 1;
 [e = _LATC2 -> -> 1 `i `b ]
-"362
-[; ;glory.c: 362:                 TMR2IF = 0;
+"361
+[; ;glory.c: 361:                 TMR2IF = 0;
 [e = _TMR2IF -> -> 0 `i `b ]
-"363
-[; ;glory.c: 363:                 TMR2IE = 1;
+"362
+[; ;glory.c: 362:                 TMR2IE = 1;
 [e = _TMR2IE -> -> 1 `i `b ]
+"363
+[; ;glory.c: 363:             }
+}
+[e $U 320  ]
 "364
-[; ;glory.c: 364:             }
+[; ;glory.c: 364:             else
+[e :U 319 ]
+"365
+[; ;glory.c: 365:             {
+{
+"366
+[; ;glory.c: 366:                 if (ValorStateLock == 1)
+[e $ ! == _ValorStateLock -> 1 `i 321  ]
+"367
+[; ;glory.c: 367:                 {
+{
+"368
+[; ;glory.c: 368:                     LATC2 = 1;
+[e = _LATC2 -> -> 1 `i `b ]
+"369
+[; ;glory.c: 369:                     LATE2 = 1;
+[e = _LATE2 -> -> 1 `i `b ]
+"370
+[; ;glory.c: 370:                     LATE1 = 0;
+[e = _LATE1 -> -> 0 `i `b ]
+"371
+[; ;glory.c: 371:                     TMR2IF = 0;
+[e = _TMR2IF -> -> 0 `i `b ]
+"372
+[; ;glory.c: 372:                     TMR2IE = 0;
+[e = _TMR2IE -> -> 0 `i `b ]
+"373
+[; ;glory.c: 373:                 }
 }
 [e $U 322  ]
-"365
-[; ;glory.c: 365:             else
-[e :U 321 ]
-"366
-[; ;glory.c: 366:             {
-{
-"367
-[; ;glory.c: 367:                 if (ValorStateLock == 1)
-[e $ ! == _ValorStateLock -> 1 `i 323  ]
-"368
-[; ;glory.c: 368:                 {
-{
-"369
-[; ;glory.c: 369:                     LATC2 = 1;
-[e = _LATC2 -> -> 1 `i `b ]
-"370
-[; ;glory.c: 370:                     LATE2 = 1;
-[e = _LATE2 -> -> 1 `i `b ]
-"371
-[; ;glory.c: 371:                     LATE1 = 0;
-[e = _LATE1 -> -> 0 `i `b ]
-"372
-[; ;glory.c: 372:                     TMR2IF = 0;
-[e = _TMR2IF -> -> 0 `i `b ]
-"373
-[; ;glory.c: 373:                     TMR2IE = 0;
-[e = _TMR2IE -> -> 0 `i `b ]
 "374
-[; ;glory.c: 374:                 }
-}
-[e $U 324  ]
+[; ;glory.c: 374:                 else
+[e :U 321 ]
 "375
-[; ;glory.c: 375:                 else
-[e :U 323 ]
-"376
-[; ;glory.c: 376:                 {
+[; ;glory.c: 375:                 {
 {
-"377
-[; ;glory.c: 377:                     LATC2 = 0;
+"376
+[; ;glory.c: 376:                     LATC2 = 0;
 [e = _LATC2 -> -> 0 `i `b ]
-"378
-[; ;glory.c: 378:                     LATE2 = 0;
+"377
+[; ;glory.c: 377:                     LATE2 = 0;
 [e = _LATE2 -> -> 0 `i `b ]
-"379
-[; ;glory.c: 379:                     LATE1 = 0;
+"378
+[; ;glory.c: 378:                     LATE1 = 0;
 [e = _LATE1 -> -> 0 `i `b ]
-"380
-[; ;glory.c: 380:                     TMR2IE = 0;
+"379
+[; ;glory.c: 379:                     TMR2IE = 0;
 [e = _TMR2IE -> -> 0 `i `b ]
-"381
-[; ;glory.c: 381:                 }
-}
-[e :U 324 ]
-"382
-[; ;glory.c: 382:             }
+"380
+[; ;glory.c: 380:                 }
 }
 [e :U 322 ]
-"383
-[; ;glory.c: 383:             StartUp = 0;
+"381
+[; ;glory.c: 381:             }
+}
+[e :U 320 ]
+"382
+[; ;glory.c: 382:             StartUp = 0;
 [e = _StartUp -> 0 `i ]
+"385
+[; ;glory.c: 385:         }
+}
+[e :U 304 ]
 "386
-[; ;glory.c: 386:         } else {
+[; ;glory.c: 386:     }
 }
-[e $U 325  ]
-[e :U 306 ]
-{
-"390
-[; ;glory.c: 390:             ValorStateE = (J8 * 4) + (J9 * 2) + J2;
-[e = _ValorStateE + + * _J8 -> 4 `i * _J9 -> 2 `i _J2 ]
-"392
-[; ;glory.c: 392:             ValorBagSensor = (J5 * 4) + (J6 * 2) + J12;
-[e = _ValorBagSensor + + * _J5 -> 4 `i * _J6 -> 2 `i _J12 ]
-"394
-[; ;glory.c: 394:             if (J5 == 1 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 1 `i 326  ]
-"395
-[; ;glory.c: 395:                 ValorBagStatus = 2;
-[e = _ValorBagStatus -> 2 `i ]
-[e :U 326 ]
-"396
-[; ;glory.c: 396:             if (J5 == 0 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 1 `i == _J12 -> 1 `i 327  ]
-"397
-[; ;glory.c: 397:                 ValorBagStatus = 3;
-[e = _ValorBagStatus -> 3 `i ]
-[e :U 327 ]
-"398
-[; ;glory.c: 398:             if (J5 == 0 && J6 == 0 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 1 `i 328  ]
-"399
-[; ;glory.c: 399:                 ValorBagStatus = 5;
-[e = _ValorBagStatus -> 5 `i ]
-[e :U 328 ]
-"400
-[; ;glory.c: 400:             if (J5 == 0 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 0 `i 329  ]
-"401
-[; ;glory.c: 401:                 ValorBagStatus = 6;
-[e = _ValorBagStatus -> 6 `i ]
-[e :U 329 ]
-"402
-[; ;glory.c: 402:             if (J5 == 0 && J6 == 1 && J12 == 0)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 1 `i == _J12 -> 0 `i 330  ]
-"403
-[; ;glory.c: 403:                 ValorBagStatus = 4;
-[e = _ValorBagStatus -> 4 `i ]
-[e :U 330 ]
-"404
-[; ;glory.c: 404:             if (J5 == 1 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 0 `i == _J12 -> 0 `i 331  ]
-"405
-[; ;glory.c: 405:                 ValorBagStatus = 1;
-[e = _ValorBagStatus -> 1 `i ]
-[e :U 331 ]
-"406
-[; ;glory.c: 406:             if (J5 == 1 && J6 == 0 && J12 == 1)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 0 `i == _J12 -> 1 `i 332  ]
-"407
-[; ;glory.c: 407:                 ValorBagStatus = 0;
-[e = _ValorBagStatus -> 0 `i ]
-[e :U 332 ]
-"408
-[; ;glory.c: 408:             if (J5 == 1 && J6 == 1 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 0 `i 333  ]
-"409
-[; ;glory.c: 409:                 ValorBagStatus = 0;
-[e = _ValorBagStatus -> 0 `i ]
-[e :U 333 ]
-"413
-[; ;glory.c: 413:             if (ValorBag == 99)
-[e $ ! == _ValorBag -> 99 `i 334  ]
-"414
-[; ;glory.c: 414:             {
-{
-"415
-[; ;glory.c: 415:                 if (J5 == 1 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 0 `i == _J12 -> 0 `i 335  ]
-"416
-[; ;glory.c: 416:                 {
-{
-"417
-[; ;glory.c: 417:                     ValorBag = 2;
-[e = _ValorBag -> 2 `i ]
-"418
-[; ;glory.c: 418:                 }
-}
-[e $U 336  ]
-"419
-[; ;glory.c: 419:                 else
-[e :U 335 ]
-"420
-[; ;glory.c: 420:                 {
-{
-"421
-[; ;glory.c: 421:                     ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-"422
-[; ;glory.c: 422:                 }
-}
-[e :U 336 ]
-"423
-[; ;glory.c: 423:             }
-}
-[e :U 334 ]
-"424
-[; ;glory.c: 424:             if (ValorBag == 0)
-[e $ ! == _ValorBag -> 0 `i 337  ]
-"425
-[; ;glory.c: 425:             {
-{
-"426
-[; ;glory.c: 426:                 if (J5 == 1 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 1 `i 338  ]
-"427
-[; ;glory.c: 427:                 {
-{
-"428
-[; ;glory.c: 428:                     ValorBag = 1;
-[e = _ValorBag -> 1 `i ]
-"429
-[; ;glory.c: 429:                     EstadoAprobacionBolsa = 0;
-[e = _EstadoAprobacionBolsa -> 0 `i ]
-"430
-[; ;glory.c: 430:                     if (StartUp == 0)
-[e $ ! == _StartUp -> 0 `i 339  ]
-"431
-[; ;glory.c: 431:                     {
-{
-"432
-[; ;glory.c: 432:                         USART_EnviaMsg("BAG REMOVED");
-[e ( _USART_EnviaMsg (1 :s 10C ]
-"433
-[; ;glory.c: 433:                         USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"434
-[; ;glory.c: 434:                     }
-}
-[e :U 339 ]
-"435
-[; ;glory.c: 435:                 }
-}
-[e :U 338 ]
-"436
-[; ;glory.c: 436:             }
-}
-[e :U 337 ]
-"437
-[; ;glory.c: 437:             if (ValorBag == 1)
-[e $ ! == _ValorBag -> 1 `i 340  ]
-"438
-[; ;glory.c: 438:             {
-{
-"439
-[; ;glory.c: 439:                 if (J5 == 1 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 1 `i 341  ]
-"440
-[; ;glory.c: 440:                     ValorBag = 1;
-[e = _ValorBag -> 1 `i ]
-[e :U 341 ]
-"441
-[; ;glory.c: 441:                 if (J6 == 0 && J12 == 1)
-[e $ ! && == _J6 -> 0 `i == _J12 -> 1 `i 342  ]
-"442
-[; ;glory.c: 442:                 {
-{
-"443
-[; ;glory.c: 443:                     ValorBag = 6;
-[e = _ValorBag -> 6 `i ]
-"444
-[; ;glory.c: 444:                 }
-}
-[e :U 342 ]
-"445
-[; ;glory.c: 445:                 if (J5 == 1 && J6 == 1 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 0 `i 343  ]
-"446
-[; ;glory.c: 446:                     ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-[e :U 343 ]
-"447
-[; ;glory.c: 447:             }
-}
-[e :U 340 ]
-"449
-[; ;glory.c: 449:             if (ValorBag == 6)
-[e $ ! == _ValorBag -> 6 `i 344  ]
-"450
-[; ;glory.c: 450:             {
-{
-"451
-[; ;glory.c: 451:                 if (J5 == 1 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 0 `i == _J12 -> 0 `i 345  ]
-"452
-[; ;glory.c: 452:                 {
-{
-"453
-[; ;glory.c: 453:                     ValorBag = 2;
-[e = _ValorBag -> 2 `i ]
-"454
-[; ;glory.c: 454:                     USART_EnviaMsg("BAG INPLACE");
-[e ( _USART_EnviaMsg (1 :s 11C ]
-"455
-[; ;glory.c: 455:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"456
-[; ;glory.c: 456:                 }
-}
-[e :U 345 ]
-"457
-[; ;glory.c: 457:                     if (J6 == 0 && J12 == 1)
-[e $ ! && == _J6 -> 0 `i == _J12 -> 1 `i 346  ]
-"458
-[; ;glory.c: 458:                     ValorBag = 6;
-[e = _ValorBag -> 6 `i ]
-[e :U 346 ]
-"459
-[; ;glory.c: 459:                 if (J5 == 0 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 1 `i == _J12 -> 1 `i 347  ]
-"460
-[; ;glory.c: 460:                     ValorBag = 6;
-[e = _ValorBag -> 6 `i ]
-[e :U 347 ]
-"461
-[; ;glory.c: 461:                 if (J5 == 1 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 1 `i 348  ]
-"462
-[; ;glory.c: 462:                     ValorBag = 1;
-[e = _ValorBag -> 1 `i ]
-[e :U 348 ]
-"463
-[; ;glory.c: 463:                 if (J5 == 0 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 0 `i 349  ]
-"464
-[; ;glory.c: 464:                 {
-{
-"465
-[; ;glory.c: 465:                     ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-"466
-[; ;glory.c: 466:                     USART_EnviaMsg("CRITICAL : BAG PLACED CLOSED");
-[e ( _USART_EnviaMsg (1 :s 12C ]
-"467
-[; ;glory.c: 467:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"468
-[; ;glory.c: 468:                 }
-}
-[e :U 349 ]
-"469
-[; ;glory.c: 469:             }
-}
-[e :U 344 ]
-"471
-[; ;glory.c: 471:             if (ValorBag == 2)
-[e $ ! == _ValorBag -> 2 `i 350  ]
-"472
-[; ;glory.c: 472:             {
-{
-"473
-[; ;glory.c: 473:                 if (J5 == 0 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 0 `i 351  ]
-"474
-[; ;glory.c: 474:                     ValorBag = 4;
-[e = _ValorBag -> 4 `i ]
-[e :U 351 ]
-"475
-[; ;glory.c: 475:                 if (J5 == 1 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 0 `i == _J12 -> 0 `i 352  ]
-"476
-[; ;glory.c: 476:                     ValorBag = 2;
-[e = _ValorBag -> 2 `i ]
-[e :U 352 ]
-"477
-[; ;glory.c: 477:                 if (J6 == 1)
-[e $ ! == _J6 -> 1 `i 353  ]
-"478
-[; ;glory.c: 478:                 {
-{
-"479
-[; ;glory.c: 479:                     ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-"480
-[; ;glory.c: 480:                     USART_EnviaMsg("CRITICAL : BAG BAG_STATE_INPLACE 0x00 0x01");
-[e ( _USART_EnviaMsg (1 :s 13C ]
-"481
-[; ;glory.c: 481:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"482
-[; ;glory.c: 482:                 }
-}
-[e :U 353 ]
-"483
-[; ;glory.c: 483:                 if (J12 == 1)
-[e $ ! == _J12 -> 1 `i 354  ]
-"484
-[; ;glory.c: 484:                 {
-{
-"485
-[; ;glory.c: 485:                     ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-"486
-[; ;glory.c: 486:                     USART_EnviaMsg("CRITICAL : BAG BAG_UNLOCKED_OPEN 0x00 0x02");
-[e ( _USART_EnviaMsg (1 :s 14C ]
-"487
-[; ;glory.c: 487:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"488
-[; ;glory.c: 488:                 }
-}
-[e :U 354 ]
-"489
-[; ;glory.c: 489:             }
-}
-[e :U 350 ]
-"490
-[; ;glory.c: 490:             if (ValorBag == 4)
-[e $ ! == _ValorBag -> 4 `i 355  ]
-"491
-[; ;glory.c: 491:             {
-{
-"492
-[; ;glory.c: 492:                 if (J5 == 0 && J6 == 0 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 1 `i 356  ]
-"493
-[; ;glory.c: 493:                     ValorBag = 5;
-[e = _ValorBag -> 5 `i ]
-[e :U 356 ]
-"494
-[; ;glory.c: 494:                 if (J5 == 0 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 0 `i 357  ]
-"495
-[; ;glory.c: 495:                     ValorBag = 4;
-[e = _ValorBag -> 4 `i ]
-[e :U 357 ]
-"496
-[; ;glory.c: 496:                 if (J5 == 0 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 1 `i == _J12 -> 1 `i 358  ]
-"497
-[; ;glory.c: 497:                     ValorBag = 5;
-[e = _ValorBag -> 5 `i ]
-[e :U 358 ]
-"498
-[; ;glory.c: 498:                 if (J5 == 1 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 0 `i == _J12 -> 0 `i 359  ]
-"499
-[; ;glory.c: 499:                     ValorBag = 2;
-[e = _ValorBag -> 2 `i ]
-[e :U 359 ]
-"501
-[; ;glory.c: 501:             }
-}
-[e :U 355 ]
-"502
-[; ;glory.c: 502:             if (ValorBag == 5)
-[e $ ! == _ValorBag -> 5 `i 360  ]
-"503
-[; ;glory.c: 503:             {
-{
-"504
-[; ;glory.c: 504:                 if (J5 == 0 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 1 `i == _J12 -> 1 `i 361  ]
-"505
-[; ;glory.c: 505:                     ValorBag = 5;
-[e = _ValorBag -> 5 `i ]
-[e :U 361 ]
-"506
-[; ;glory.c: 506:                 if (J5 == 0 && J6 == 0 && J12 == 1)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 1 `i 362  ]
-"507
-[; ;glory.c: 507:                     ValorBag = 5;
-[e = _ValorBag -> 5 `i ]
-[e :U 362 ]
-"508
-[; ;glory.c: 508:                 if (J5 == 0 && J6 == 0 && J12 == 0)
-[e $ ! && && == _J5 -> 0 `i == _J6 -> 0 `i == _J12 -> 0 `i 363  ]
-"509
-[; ;glory.c: 509:                     ValorBag = 0;
-[e = _ValorBag -> 0 `i ]
-[e :U 363 ]
-"510
-[; ;glory.c: 510:                 if (J5 == 1 && J6 == 1 && J12 == 1)
-[e $ ! && && == _J5 -> 1 `i == _J6 -> 1 `i == _J12 -> 1 `i 364  ]
-"511
-[; ;glory.c: 511:                 {
-{
-"512
-[; ;glory.c: 512:                     ValorBag = 1;
-[e = _ValorBag -> 1 `i ]
-"513
-[; ;glory.c: 513:                     USART_EnviaMsg("BAG REMOVED");
-[e ( _USART_EnviaMsg (1 :s 15C ]
-"514
-[; ;glory.c: 514:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"515
-[; ;glory.c: 515:                 }
-}
-[e :U 364 ]
-"516
-[; ;glory.c: 516:             }
-}
-[e :U 360 ]
-"518
-[; ;glory.c: 518:             if (ValorBag != 2 && (ValorStateLock == 0))
-[e $ ! && != _ValorBag -> 2 `i == _ValorStateLock -> 0 `i 365  ]
-"519
-[; ;glory.c: 519:             {
-{
-"520
-[; ;glory.c: 520:                 LATC2 = 1;
-[e = _LATC2 -> -> 1 `i `b ]
-"521
-[; ;glory.c: 521:                 TMR2IF = 0;
-[e = _TMR2IF -> -> 0 `i `b ]
-"522
-[; ;glory.c: 522:                 TMR2IE = 1;
-[e = _TMR2IE -> -> 1 `i `b ]
-"523
-[; ;glory.c: 523:             }
-}
-[e $U 366  ]
-"524
-[; ;glory.c: 524:             else
-[e :U 365 ]
-"525
-[; ;glory.c: 525:             {
-{
-"526
-[; ;glory.c: 526:                 if (ValorStateLock == 1)
-[e $ ! == _ValorStateLock -> 1 `i 367  ]
-"527
-[; ;glory.c: 527:                 {
-{
-"528
-[; ;glory.c: 528:                     LATC2 = 1;
-[e = _LATC2 -> -> 1 `i `b ]
-"529
-[; ;glory.c: 529:                     LATE2 = 1;
-[e = _LATE2 -> -> 1 `i `b ]
-"530
-[; ;glory.c: 530:                     LATE1 = 0;
-[e = _LATE1 -> -> 0 `i `b ]
-"531
-[; ;glory.c: 531:                     TMR2IF = 0;
-[e = _TMR2IF -> -> 0 `i `b ]
-"532
-[; ;glory.c: 532:                     TMR2IE = 0;
-[e = _TMR2IE -> -> 0 `i `b ]
-"533
-[; ;glory.c: 533:                 }
-}
-[e $U 368  ]
-"534
-[; ;glory.c: 534:                 else
-[e :U 367 ]
-"535
-[; ;glory.c: 535:                 {
-{
-"536
-[; ;glory.c: 536:                     LATC2 = 0;
-[e = _LATC2 -> -> 0 `i `b ]
-"537
-[; ;glory.c: 537:                     LATE2 = 0;
-[e = _LATE2 -> -> 0 `i `b ]
-"538
-[; ;glory.c: 538:                     LATE1 = 0;
-[e = _LATE1 -> -> 0 `i `b ]
-"539
-[; ;glory.c: 539:                     TMR2IE = 0;
-[e = _TMR2IE -> -> 0 `i `b ]
-"540
-[; ;glory.c: 540:                 }
-}
-[e :U 368 ]
-"541
-[; ;glory.c: 541:             }
-}
-[e :U 366 ]
-"542
-[; ;glory.c: 542:             StartUp = 0;
-[e = _StartUp -> 0 `i ]
-"543
-[; ;glory.c: 543:         }
-}
-[e :U 325 ]
-"544
-[; ;glory.c: 544:     }
-}
+[e :U 288 ]
+[e $U 289  ]
 [e :U 290 ]
-[e $U 291  ]
-[e :U 292 ]
-"545
-[; ;glory.c: 545: }
+"387
+[; ;glory.c: 387: }
 [e :UE 284 ]
 }
-"551
-[; ;glory.c: 551: void USART_Init(long baud_rate)
+"393
+[; ;glory.c: 393: void USART_Init(long baud_rate)
 [v _USART_Init `(v ~T0 @X0 1 ef1`l ]
-"552
-[; ;glory.c: 552: {
+"394
+[; ;glory.c: 394: {
 {
 [e :U _USART_Init ]
-"551
-[; ;glory.c: 551: void USART_Init(long baud_rate)
+"393
+[; ;glory.c: 393: void USART_Init(long baud_rate)
 [v _baud_rate `l ~T0 @X0 1 r1 ]
-"552
-[; ;glory.c: 552: {
+"394
+[; ;glory.c: 394: {
 [f ]
-"553
-[; ;glory.c: 553:     float temp;
+"395
+[; ;glory.c: 395:     float temp;
 [v _temp `f ~T0 @X0 1 a ]
-"554
-[; ;glory.c: 554:     temp=(((float)(8000000/16)/(float)baud_rate)-1);
+"396
+[; ;glory.c: 396:     temp=(((float)(8000000/16)/(float)baud_rate)-1);
 [e = _temp - / -> / -> 8000000 `l -> -> 16 `i `l `f -> _baud_rate `f -> -> 1 `i `f ]
-"555
-[; ;glory.c: 555:     SPBRG=(int)temp;
+"397
+[; ;glory.c: 397:     SPBRG=(int)temp;
 [e = _SPBRG -> -> _temp `i `uc ]
-"557
-[; ;glory.c: 557:     TXSTA=0x24;
+"399
+[; ;glory.c: 399:     TXSTA=0x24;
 [e = _TXSTA -> -> 36 `i `uc ]
-"558
-[; ;glory.c: 558:     RCSTA=0x90;
+"400
+[; ;glory.c: 400:     RCSTA=0x90;
 [e = _RCSTA -> -> 144 `i `uc ]
-"559
-[; ;glory.c: 559: }
-[e :UE 369 ]
+"401
+[; ;glory.c: 401: }
+[e :UE 323 ]
 }
 [v $root$_isr `(v ~T0 @X0 0 e ]
-"562
-[; ;glory.c: 562: void __attribute__((picinterrupt(("")))) isr (void)
+"404
+[; ;glory.c: 404: void __attribute__((picinterrupt(("")))) isr (void)
 [v _isr `(v ~T42 @X0 1 ef ]
-"563
-[; ;glory.c: 563: {
+"405
+[; ;glory.c: 405: {
 {
 [e :U _isr ]
 [f ]
-"564
-[; ;glory.c: 564:     char letrain;
+"406
+[; ;glory.c: 406:     char letrain;
 [v _letrain `uc ~T0 @X0 1 a ]
-"565
-[; ;glory.c: 565:     int n;
+"407
+[; ;glory.c: 407:     int n;
 [v _n `i ~T0 @X0 1 a ]
-"569
-[; ;glory.c: 569:     if((PIR1bits.RCIF == 1) && (PIE1bits.RCIE == 1))
-[e $ ! && == -> . . _PIR1bits 0 5 `i -> 1 `i == -> . . _PIE1bits 0 5 `i -> 1 `i 371  ]
-"570
-[; ;glory.c: 570:     {
+"411
+[; ;glory.c: 411:     if((PIR1bits.RCIF == 1) && (PIE1bits.RCIE == 1))
+[e $ ! && == -> . . _PIR1bits 0 5 `i -> 1 `i == -> . . _PIE1bits 0 5 `i -> 1 `i 325  ]
+"412
+[; ;glory.c: 412:     {
 {
-"571
-[; ;glory.c: 571:         RCIF = 0;
+"413
+[; ;glory.c: 413:         RCIF = 0;
 [e = _RCIF -> -> 0 `i `b ]
-"572
-[; ;glory.c: 572:         letrain=RCREG;
+"414
+[; ;glory.c: 414:         letrain=RCREG;
 [e = _letrain -> _RCREG `uc ]
-"575
-[; ;glory.c: 575:         switch(letrain)
-[e $U 373  ]
-"576
-[; ;glory.c: 576:         {
+"417
+[; ;glory.c: 417:         switch(letrain)
+[e $U 327  ]
+"418
+[; ;glory.c: 418:         {
 {
-"577
-[; ;glory.c: 577:             case 'C': case 'c':
-[e :U 374 ]
-[e :U 375 ]
-"578
-[; ;glory.c: 578:                 if (ValorStateShutter==8)
-[e $ ! == _ValorStateShutter -> 8 `i 376  ]
-"579
-[; ;glory.c: 579:                 {
+"419
+[; ;glory.c: 419:             case 'C': case 'c':
+[e :U 328 ]
+[e :U 329 ]
+"420
+[; ;glory.c: 420:                 if (ValorStateShutter==8)
+[e $ ! == _ValorStateShutter -> 8 `i 330  ]
+"421
+[; ;glory.c: 421:                 {
 {
-"580
-[; ;glory.c: 580:                     ValorStateShutter=3;
+"422
+[; ;glory.c: 422:                     ValorStateShutter=3;
 [e = _ValorStateShutter -> 3 `i ]
-"581
-[; ;glory.c: 581:                     LATE0=1;
+"423
+[; ;glory.c: 423:                     LATE0=1;
 [e = _LATE0 -> -> 1 `i `b ]
-"582
-[; ;glory.c: 582:                     LATA5=0;
+"424
+[; ;glory.c: 424:                     LATA5=0;
 [e = _LATA5 -> -> 0 `i `b ]
-"583
-[; ;glory.c: 583:                     LATC1=1;
+"425
+[; ;glory.c: 425:                     LATC1=1;
 [e = _LATC1 -> -> 1 `i `b ]
-"584
-[; ;glory.c: 584:                     Tiempo1=0;
+"426
+[; ;glory.c: 426:                     Tiempo1=0;
 [e = _Tiempo1 -> 0 `i ]
+"427
+[; ;glory.c: 427:                     TMR1H=0xB1;
+[e = _TMR1H -> -> 177 `i `uc ]
+"428
+[; ;glory.c: 428:                     TMR1L=0xE0;
+[e = _TMR1L -> -> 224 `i `uc ]
+"429
+[; ;glory.c: 429:                     TMR1IF=0;
+[e = _TMR1IF -> -> 0 `i `b ]
+"430
+[; ;glory.c: 430:                     TMR1IE=1;
+[e = _TMR1IE -> -> 1 `i `b ]
+"431
+[; ;glory.c: 431:                     USART_EnviaMsg("START CLOSE");
+[e ( _USART_EnviaMsg (1 :s 17C ]
+"432
+[; ;glory.c: 432:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"433
+[; ;glory.c: 433:                     USART_EnviaMsg("WARNING CLOSE SENSOR DISABLED");
+[e ( _USART_EnviaMsg (1 :s 18C ]
+"434
+[; ;glory.c: 434:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"435
+[; ;glory.c: 435:                 }
+}
+[e :U 330 ]
+"436
+[; ;glory.c: 436:                 break;
+[e $U 326  ]
+"437
+[; ;glory.c: 437:             case 'O': case 'o':
+[e :U 331 ]
+[e :U 332 ]
+"438
+[; ;glory.c: 438:                 if (ValorStateShutter==9)
+[e $ ! == _ValorStateShutter -> 9 `i 333  ]
+"439
+[; ;glory.c: 439:                 {
+{
+"440
+[; ;glory.c: 440:                     ValorStateShutter=2;
+[e = _ValorStateShutter -> 2 `i ]
+"441
+[; ;glory.c: 441:                     LATE0=0;
+[e = _LATE0 -> -> 0 `i `b ]
+"442
+[; ;glory.c: 442:                     LATA5=1;
+[e = _LATA5 -> -> 1 `i `b ]
+"443
+[; ;glory.c: 443:                     LATC1=1;
+[e = _LATC1 -> -> 1 `i `b ]
+"444
+[; ;glory.c: 444:                     Tiempo1=0;
+[e = _Tiempo1 -> 0 `i ]
+"445
+[; ;glory.c: 445:                     TMR1H=0xB1;
+[e = _TMR1H -> -> 177 `i `uc ]
+"446
+[; ;glory.c: 446:                     TMR1L=0xE0;
+[e = _TMR1L -> -> 224 `i `uc ]
+"447
+[; ;glory.c: 447:                     TMR1IF=0;
+[e = _TMR1IF -> -> 0 `i `b ]
+"448
+[; ;glory.c: 448:                     TMR1IE=1;
+[e = _TMR1IE -> -> 1 `i `b ]
+"449
+[; ;glory.c: 449:                     USART_EnviaMsg("START OPEN");
+[e ( _USART_EnviaMsg (1 :s 19C ]
+"450
+[; ;glory.c: 450:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"451
+[; ;glory.c: 451:                     USART_EnviaMsg("WARNING OPEN SENSOR DISABLED");
+[e ( _USART_EnviaMsg (1 :s 20C ]
+"452
+[; ;glory.c: 452:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"453
+[; ;glory.c: 453:                 }
+}
+[e :U 333 ]
+"454
+[; ;glory.c: 454:                 break;
+[e $U 326  ]
+"455
+[; ;glory.c: 455:             case 'U': case 'u':
+[e :U 334 ]
+[e :U 335 ]
+"456
+[; ;glory.c: 456:                 if (ValorStateLock==0)
+[e $ ! == _ValorStateLock -> 0 `i 336  ]
+"457
+[; ;glory.c: 457:                 {
+{
+"458
+[; ;glory.c: 458:                     ValorStateLock=1;
+[e = _ValorStateLock -> 1 `i ]
+"460
+[; ;glory.c: 460:                     LATA4=1;
+[e = _LATA4 -> -> 1 `i `b ]
+"461
+[; ;glory.c: 461:                     LATA3=0;
+[e = _LATA3 -> -> 0 `i `b ]
+"462
+[; ;glory.c: 462:                     LATA1=1;
+[e = _LATA1 -> -> 1 `i `b ]
+"463
+[; ;glory.c: 463:                     LATA0=0;
+[e = _LATA0 -> -> 0 `i `b ]
+"464
+[; ;glory.c: 464:                     LATA2=1;
+[e = _LATA2 -> -> 1 `i `b ]
+"465
+[; ;glory.c: 465:                     PulsoArriba=1;
+[e = _PulsoArriba -> 1 `i ]
+"466
+[; ;glory.c: 466:                     TiempoPulso=0;
+[e = _TiempoPulso -> 0 `i ]
+"468
+[; ;glory.c: 468:                     Tiempo0=0;
+[e = _Tiempo0 -> 0 `i ]
+"469
+[; ;glory.c: 469:                     TMR0IE=1;
+[e = _TMR0IE -> -> 1 `i `b ]
+"470
+[; ;glory.c: 470:                     USART_EnviaMsg("CRITICAL: door unlocked");
+[e ( _USART_EnviaMsg (1 :s 21C ]
+"471
+[; ;glory.c: 471:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"472
+[; ;glory.c: 472:                 }
+}
+[e :U 336 ]
+"473
+[; ;glory.c: 473:                 break;
+[e $U 326  ]
+"474
+[; ;glory.c: 474:             case 'E': case 'e':
+[e :U 337 ]
+[e :U 338 ]
+"475
+[; ;glory.c: 475:                 if(ModoTrabajo = 0){
+[e $ ! != = _ModoTrabajo -> 0 `i -> 0 `i 339  ]
+{
+"476
+[; ;glory.c: 476:                     if (J6==0 && J13==0)
+[e $ ! && == _J6 -> 0 `i == _J13 -> 0 `i 340  ]
+"477
+[; ;glory.c: 477:                     {
+{
+"478
+[; ;glory.c: 478:                         ValorBag=2;
+[e = _ValorBag -> 2 `i ]
+"479
+[; ;glory.c: 479:                     }
+}
+[e $U 341  ]
+"480
+[; ;glory.c: 480:                     else{
+[e :U 340 ]
+{
+"481
+[; ;glory.c: 481:                         ValorBag=0;
+[e = _ValorBag -> 0 `i ]
+"482
+[; ;glory.c: 482:                         USART_EnviaMsg("WARNING : BAG IN IT");
+[e ( _USART_EnviaMsg (1 :s 22C ]
+"483
+[; ;glory.c: 483:                         USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"484
+[; ;glory.c: 484:                     }
+}
+[e :U 341 ]
+"485
+[; ;glory.c: 485:                 }
+}
+[e :U 339 ]
+"487
+[; ;glory.c: 487:                 break;
+[e $U 326  ]
+"488
+[; ;glory.c: 488:             case 'A': case 'a':
+[e :U 342 ]
+[e :U 343 ]
+"489
+[; ;glory.c: 489:                 if (ValorBag==2)
+[e $ ! == _ValorBag -> 2 `i 344  ]
+"490
+[; ;glory.c: 490:                 {
+{
+"491
+[; ;glory.c: 491:                     EstadoAprobacionBolsa=1;
+[e = _EstadoAprobacionBolsa -> 1 `i ]
+"492
+[; ;glory.c: 492:                 }else{
+}
+[e $U 345  ]
+[e :U 344 ]
+{
+"493
+[; ;glory.c: 493:                     ValorBag=0;
+[e = _ValorBag -> 0 `i ]
+"494
+[; ;glory.c: 494:                     USART_EnviaMsg("CRITICAL : BAG IS NOT IN PLACE CAN'T APROVE");
+[e ( _USART_EnviaMsg (1 :s 23C ]
+"495
+[; ;glory.c: 495:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"496
+[; ;glory.c: 496:                 }
+}
+[e :U 345 ]
+"497
+[; ;glory.c: 497:                 break;
+[e $U 326  ]
+"498
+[; ;glory.c: 498:             case 'V': case 'v':
+[e :U 346 ]
+[e :U 347 ]
+"499
+[; ;glory.c: 499:                 USART_EnviaMsg(MsgVersion);
+[e ( _USART_EnviaMsg (1 &U _MsgVersion ]
+"500
+[; ;glory.c: 500:                 USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"501
+[; ;glory.c: 501:                 break;
+[e $U 326  ]
+"502
+[; ;glory.c: 502:             case 'B': case 'b':
+[e :U 348 ]
+[e :U 349 ]
+"503
+[; ;glory.c: 503:                 if(ModoTrabajo == 0){
+[e $ ! == _ModoTrabajo -> 0 `i 350  ]
+{
+"504
+[; ;glory.c: 504:                     USART_EnviaMsg(MsgPersonalidad1);
+[e ( _USART_EnviaMsg (1 &U _MsgPersonalidad1 ]
+"505
+[; ;glory.c: 505:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"506
+[; ;glory.c: 506:                 }else{
+}
+[e $U 351  ]
+[e :U 350 ]
+{
+"507
+[; ;glory.c: 507:                     USART_EnviaMsg(MsgPersonalidad2);
+[e ( _USART_EnviaMsg (1 &U _MsgPersonalidad2 ]
+"508
+[; ;glory.c: 508:                     USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"509
+[; ;glory.c: 509:                 }
+}
+[e :U 351 ]
+"510
+[; ;glory.c: 510:                 break;
+[e $U 326  ]
+"511
+[; ;glory.c: 511:             case 'S': case 's':
+[e :U 352 ]
+[e :U 353 ]
+"512
+[; ;glory.c: 512:                 USART_EnviaMsg("STATE : BAG ");
+[e ( _USART_EnviaMsg (1 :s 24C ]
+"513
+[; ;glory.c: 513:                 n=sprintf(txt,"%02u",ValorBag);
+[e = _n ( _sprintf (1 , (. , &U _txt :s 25C _ValorBag ]
+"514
+[; ;glory.c: 514:                 USART_EnviaMsg(txt);
+[e ( _USART_EnviaMsg (1 &U _txt ]
+"518
+[; ;glory.c: 518:                 USART_EnviaMsg(" SHUTTER ");
+[e ( _USART_EnviaMsg (1 :s 26C ]
+"519
+[; ;glory.c: 519:                 n=sprintf(txt,"%02X",ValorStateShutter);
+[e = _n ( _sprintf (1 , (. , &U _txt :s 27C _ValorStateShutter ]
+"520
+[; ;glory.c: 520:                 USART_EnviaMsg(txt);
+[e ( _USART_EnviaMsg (1 &U _txt ]
+"521
+[; ;glory.c: 521:                 USART_EnviaMsg(" LOCK ");
+[e ( _USART_EnviaMsg (1 :s 28C ]
+"522
+[; ;glory.c: 522:                 n=sprintf(txt,"%01u",ValorStateLock);
+[e = _n ( _sprintf (1 , (. , &U _txt :s 29C _ValorStateLock ]
+"523
+[; ;glory.c: 523:                 USART_EnviaMsg(txt);
+[e ( _USART_EnviaMsg (1 &U _txt ]
+"524
+[; ;glory.c: 524:                 USART_EnviaMsg(" GATE ");
+[e ( _USART_EnviaMsg (1 :s 30C ]
+"525
+[; ;glory.c: 525:                 n=sprintf(txt,"%01u",ValorStateE);
+[e = _n ( _sprintf (1 , (. , &U _txt :s 31C _ValorStateE ]
+"526
+[; ;glory.c: 526:                 USART_EnviaMsg(txt);
+[e ( _USART_EnviaMsg (1 &U _txt ]
+"527
+[; ;glory.c: 527:                 USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"528
+[; ;glory.c: 528:                 break;
+[e $U 326  ]
+"529
+[; ;glory.c: 529:             default:
+[e :U 354 ]
+"530
+[; ;glory.c: 530:                 USART_EnviaMsg(MsgAyuda);
+[e ( _USART_EnviaMsg (1 &U _MsgAyuda ]
+"531
+[; ;glory.c: 531:                 USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"532
+[; ;glory.c: 532:                 break;
+[e $U 326  ]
+"533
+[; ;glory.c: 533:         }
+}
+[e $U 326  ]
+[e :U 327 ]
+[e [\ -> _letrain `i , $ -> -> 67 `ui `i 328
+ , $ -> -> 99 `ui `i 329
+ , $ -> -> 79 `ui `i 331
+ , $ -> -> 111 `ui `i 332
+ , $ -> -> 85 `ui `i 334
+ , $ -> -> 117 `ui `i 335
+ , $ -> -> 69 `ui `i 337
+ , $ -> -> 101 `ui `i 338
+ , $ -> -> 65 `ui `i 342
+ , $ -> -> 97 `ui `i 343
+ , $ -> -> 86 `ui `i 346
+ , $ -> -> 118 `ui `i 347
+ , $ -> -> 66 `ui `i 348
+ , $ -> -> 98 `ui `i 349
+ , $ -> -> 83 `ui `i 352
+ , $ -> -> 115 `ui `i 353
+ 354 ]
+[e :U 326 ]
+"534
+[; ;glory.c: 534:     }
+}
+[e :U 325 ]
+"537
+[; ;glory.c: 537:     if (TMR0IF && TMR0IE)
+[e $ ! && _TMR0IF _TMR0IE 355  ]
+"538
+[; ;glory.c: 538:     {
+{
+"539
+[; ;glory.c: 539:         TMR0IF=0;
+[e = _TMR0IF -> -> 0 `i `b ]
+"540
+[; ;glory.c: 540:         TMR0H=0x3C;
+[e = _TMR0H -> -> 60 `i `uc ]
+"541
+[; ;glory.c: 541:         TMR0L=0xB0;
+[e = _TMR0L -> -> 176 `i `uc ]
+"542
+[; ;glory.c: 542:         Tiempo0=Tiempo0+100;
+[e = _Tiempo0 + _Tiempo0 -> 100 `i ]
+"545
+[; ;glory.c: 545:         if (PulsoArriba==1)
+[e $ ! == _PulsoArriba -> 1 `i 356  ]
+"546
+[; ;glory.c: 546:         {
+{
+"547
+[; ;glory.c: 547:             LATA4=1;
+[e = _LATA4 -> -> 1 `i `b ]
+"548
+[; ;glory.c: 548:             LATA3=0;
+[e = _LATA3 -> -> 0 `i `b ]
+"549
+[; ;glory.c: 549:             TiempoPulso=TiempoPulso+100;
+[e = _TiempoPulso + _TiempoPulso -> 100 `i ]
+"550
+[; ;glory.c: 550:             if (TiempoPulso>=1200)
+[e $ ! >= _TiempoPulso -> 1200 `i 357  ]
+"551
+[; ;glory.c: 551:             {
+{
+"552
+[; ;glory.c: 552:                 PulsoArriba=0;
+[e = _PulsoArriba -> 0 `i ]
+"553
+[; ;glory.c: 553:                 TiempoPulso=0;
+[e = _TiempoPulso -> 0 `i ]
+"554
+[; ;glory.c: 554:             }
+}
+[e :U 357 ]
+"555
+[; ;glory.c: 555:         }else{
+}
+[e $U 358  ]
+[e :U 356 ]
+{
+"556
+[; ;glory.c: 556:             LATA4=0;
+[e = _LATA4 -> -> 0 `i `b ]
+"557
+[; ;glory.c: 557:             LATA3=0;
+[e = _LATA3 -> -> 0 `i `b ]
+"558
+[; ;glory.c: 558:             TiempoPulso=TiempoPulso+100;
+[e = _TiempoPulso + _TiempoPulso -> 100 `i ]
+"559
+[; ;glory.c: 559:             if (TiempoPulso>=400)
+[e $ ! >= _TiempoPulso -> 400 `i 359  ]
+"560
+[; ;glory.c: 560:             {
+{
+"561
+[; ;glory.c: 561:                 PulsoArriba=1;
+[e = _PulsoArriba -> 1 `i ]
+"562
+[; ;glory.c: 562:                 TiempoPulso=0;
+[e = _TiempoPulso -> 0 `i ]
+"563
+[; ;glory.c: 563:             }
+}
+[e :U 359 ]
+"564
+[; ;glory.c: 564:         }
+}
+[e :U 358 ]
+"565
+[; ;glory.c: 565:         if (Tiempo0>=10500)
+[e $ ! >= _Tiempo0 -> 10500 `i 360  ]
+"566
+[; ;glory.c: 566:         {
+{
+"567
+[; ;glory.c: 567:             ValorStateLock=0;
+[e = _ValorStateLock -> 0 `i ]
+"568
+[; ;glory.c: 568:             Tiempo0=0;
+[e = _Tiempo0 -> 0 `i ]
+"569
+[; ;glory.c: 569:             TMR0IE=0;
+[e = _TMR0IE -> -> 0 `i `b ]
+"570
+[; ;glory.c: 570:             LATA2=0;
+[e = _LATA2 -> -> 0 `i `b ]
+"572
+[; ;glory.c: 572:             LATA1=0;
+[e = _LATA1 -> -> 0 `i `b ]
+"573
+[; ;glory.c: 573:             LATA0=0;
+[e = _LATA0 -> -> 0 `i `b ]
+"575
+[; ;glory.c: 575:             LATA4=0;
+[e = _LATA4 -> -> 0 `i `b ]
+"576
+[; ;glory.c: 576:             LATA3=0;
+[e = _LATA3 -> -> 0 `i `b ]
+"577
+[; ;glory.c: 577:             USART_EnviaMsg("CRITICAL: timeout waiting for door, locked");
+[e ( _USART_EnviaMsg (1 :s 32C ]
+"578
+[; ;glory.c: 578:             USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
+"579
+[; ;glory.c: 579:         }
+}
+[e :U 360 ]
+"580
+[; ;glory.c: 580:     }
+}
+[e :U 355 ]
+"582
+[; ;glory.c: 582:     if (TMR1IF && TMR1IE)
+[e $ ! && _TMR1IF _TMR1IE 361  ]
+"583
+[; ;glory.c: 583:     {
+{
+"584
+[; ;glory.c: 584:         TMR1IF=0;
+[e = _TMR1IF -> -> 0 `i `b ]
 "585
-[; ;glory.c: 585:                     TMR1H=0xB1;
+[; ;glory.c: 585:         TMR1H=0xB1;
 [e = _TMR1H -> -> 177 `i `uc ]
 "586
-[; ;glory.c: 586:                     TMR1L=0xE0;
+[; ;glory.c: 586:         TMR1L=0xE0;
 [e = _TMR1L -> -> 224 `i `uc ]
 "587
-[; ;glory.c: 587:                     TMR1IF=0;
-[e = _TMR1IF -> -> 0 `i `b ]
-"588
-[; ;glory.c: 588:                     TMR1IE=1;
-[e = _TMR1IE -> -> 1 `i `b ]
-"589
-[; ;glory.c: 589:                     USART_EnviaMsg("START CLOSE");
-[e ( _USART_EnviaMsg (1 :s 16C ]
+[; ;glory.c: 587:         Tiempo1=Tiempo1+10;
+[e = _Tiempo1 + _Tiempo1 -> 10 `i ]
 "590
-[; ;glory.c: 590:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"591
-[; ;glory.c: 591:                     USART_EnviaMsg("WARNING CLOSE SENSOR DISABLED");
-[e ( _USART_EnviaMsg (1 :s 17C ]
+[; ;glory.c: 590:         if (Tiempo1>=2020)
+[e $ ! >= _Tiempo1 -> 2020 `i 362  ]
 "592
-[; ;glory.c: 592:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"593
-[; ;glory.c: 593:                 }
-}
-[e :U 376 ]
-"594
-[; ;glory.c: 594:                 break;
-[e $U 372  ]
-"595
-[; ;glory.c: 595:             case 'O': case 'o':
-[e :U 377 ]
-[e :U 378 ]
-"596
-[; ;glory.c: 596:                 if (ValorStateShutter==9)
-[e $ ! == _ValorStateShutter -> 9 `i 379  ]
-"597
-[; ;glory.c: 597:                 {
+[; ;glory.c: 592:         {
 {
-"598
-[; ;glory.c: 598:                     ValorStateShutter=2;
-[e = _ValorStateShutter -> 2 `i ]
-"599
-[; ;glory.c: 599:                     LATE0=0;
-[e = _LATE0 -> -> 0 `i `b ]
-"600
-[; ;glory.c: 600:                     LATA5=1;
-[e = _LATA5 -> -> 1 `i `b ]
-"601
-[; ;glory.c: 601:                     LATC1=1;
-[e = _LATC1 -> -> 1 `i `b ]
-"602
-[; ;glory.c: 602:                     Tiempo1=0;
+"593
+[; ;glory.c: 593:             Tiempo1=0;
 [e = _Tiempo1 -> 0 `i ]
+"594
+[; ;glory.c: 594:             TMR1IE=0;
+[e = _TMR1IE -> -> 0 `i `b ]
+"595
+[; ;glory.c: 595:             LATC1=0;
+[e = _LATC1 -> -> 0 `i `b ]
+"597
+[; ;glory.c: 597:             LATE0=0;
+[e = _LATE0 -> -> 0 `i `b ]
+"598
+[; ;glory.c: 598:             LATA5=0;
+[e = _LATA5 -> -> 0 `i `b ]
+"599
+[; ;glory.c: 599:             if (ValorStateShutter==3)
+[e $ ! == _ValorStateShutter -> 3 `i 363  ]
+"600
+[; ;glory.c: 600:             {
+{
+"601
+[; ;glory.c: 601:                 USART_EnviaMsg("CLOSED");
+[e ( _USART_EnviaMsg (1 :s 33C ]
+"602
+[; ;glory.c: 602:                 USART_EnviaMsg(CRLF);
+[e ( _USART_EnviaMsg (1 &U _CRLF ]
 "603
-[; ;glory.c: 603:                     TMR1H=0xB1;
-[e = _TMR1H -> -> 177 `i `uc ]
+[; ;glory.c: 603:                 ValorStateShutter=9;
+[e = _ValorStateShutter -> 9 `i ]
 "604
-[; ;glory.c: 604:                     TMR1L=0xE0;
-[e = _TMR1L -> -> 224 `i `uc ]
+[; ;glory.c: 604:             }
+}
+[e :U 363 ]
 "605
-[; ;glory.c: 605:                     TMR1IF=0;
-[e = _TMR1IF -> -> 0 `i `b ]
+[; ;glory.c: 605:             if (ValorStateShutter==2)
+[e $ ! == _ValorStateShutter -> 2 `i 364  ]
 "606
-[; ;glory.c: 606:                     TMR1IE=1;
-[e = _TMR1IE -> -> 1 `i `b ]
+[; ;glory.c: 606:             {
+{
 "607
-[; ;glory.c: 607:                     USART_EnviaMsg("START OPEN");
-[e ( _USART_EnviaMsg (1 :s 18C ]
+[; ;glory.c: 607:                 USART_EnviaMsg("OPEN");
+[e ( _USART_EnviaMsg (1 :s 34C ]
 "608
-[; ;glory.c: 608:                     USART_EnviaMsg(CRLF);
+[; ;glory.c: 608:                 USART_EnviaMsg(CRLF);
 [e ( _USART_EnviaMsg (1 &U _CRLF ]
 "609
-[; ;glory.c: 609:                     USART_EnviaMsg("WARNING OPEN SENSOR DISABLED");
-[e ( _USART_EnviaMsg (1 :s 19C ]
-"610
-[; ;glory.c: 610:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"611
-[; ;glory.c: 611:                 }
-}
-[e :U 379 ]
-"612
-[; ;glory.c: 612:                 break;
-[e $U 372  ]
-"613
-[; ;glory.c: 613:             case 'U': case 'u':
-[e :U 380 ]
-[e :U 381 ]
-"614
-[; ;glory.c: 614:                 if (ValorStateLock==0)
-[e $ ! == _ValorStateLock -> 0 `i 382  ]
-"615
-[; ;glory.c: 615:                 {
-{
-"616
-[; ;glory.c: 616:                     ValorStateLock=1;
-[e = _ValorStateLock -> 1 `i ]
-"618
-[; ;glory.c: 618:                     LATA4=1;
-[e = _LATA4 -> -> 1 `i `b ]
-"619
-[; ;glory.c: 619:                     LATA3=0;
-[e = _LATA3 -> -> 0 `i `b ]
-"620
-[; ;glory.c: 620:                     LATA1=1;
-[e = _LATA1 -> -> 1 `i `b ]
-"621
-[; ;glory.c: 621:                     LATA0=0;
-[e = _LATA0 -> -> 0 `i `b ]
-"622
-[; ;glory.c: 622:                     LATA2=1;
-[e = _LATA2 -> -> 1 `i `b ]
-"623
-[; ;glory.c: 623:                     PulsoArriba=1;
-[e = _PulsoArriba -> 1 `i ]
-"624
-[; ;glory.c: 624:                     TiempoPulso=0;
-[e = _TiempoPulso -> 0 `i ]
-"626
-[; ;glory.c: 626:                     Tiempo0=0;
-[e = _Tiempo0 -> 0 `i ]
-"627
-[; ;glory.c: 627:                     TMR0IE=1;
-[e = _TMR0IE -> -> 1 `i `b ]
-"628
-[; ;glory.c: 628:                     USART_EnviaMsg("CRITICAL: door unlocked");
-[e ( _USART_EnviaMsg (1 :s 20C ]
-"629
-[; ;glory.c: 629:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"630
-[; ;glory.c: 630:                 }
-}
-[e :U 382 ]
-"631
-[; ;glory.c: 631:                 break;
-[e $U 372  ]
-"632
-[; ;glory.c: 632:             case 'E': case 'e':
-[e :U 383 ]
-[e :U 384 ]
-"633
-[; ;glory.c: 633:                 if(ModoTrabajo = 0){
-[e $ ! != = _ModoTrabajo -> 0 `i -> 0 `i 385  ]
-{
-"634
-[; ;glory.c: 634:                     if (J6==0 && J13==0)
-[e $ ! && == _J6 -> 0 `i == _J13 -> 0 `i 386  ]
-"635
-[; ;glory.c: 635:                     {
-{
-"636
-[; ;glory.c: 636:                         ValorBag=2;
-[e = _ValorBag -> 2 `i ]
-"637
-[; ;glory.c: 637:                     }
-}
-[e $U 387  ]
-"638
-[; ;glory.c: 638:                     else{
-[e :U 386 ]
-{
-"639
-[; ;glory.c: 639:                         ValorBag=0;
-[e = _ValorBag -> 0 `i ]
-"640
-[; ;glory.c: 640:                         USART_EnviaMsg("WARNING : BAG IN IT");
-[e ( _USART_EnviaMsg (1 :s 21C ]
-"641
-[; ;glory.c: 641:                         USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"642
-[; ;glory.c: 642:                     }
-}
-[e :U 387 ]
-"643
-[; ;glory.c: 643:                 }
-}
-[e :U 385 ]
-"645
-[; ;glory.c: 645:                 break;
-[e $U 372  ]
-"646
-[; ;glory.c: 646:             case 'A': case 'a':
-[e :U 388 ]
-[e :U 389 ]
-"647
-[; ;glory.c: 647:                 if (ValorBag==2)
-[e $ ! == _ValorBag -> 2 `i 390  ]
-"648
-[; ;glory.c: 648:                 {
-{
-"649
-[; ;glory.c: 649:                     EstadoAprobacionBolsa=1;
-[e = _EstadoAprobacionBolsa -> 1 `i ]
-"650
-[; ;glory.c: 650:                 }else{
-}
-[e $U 391  ]
-[e :U 390 ]
-{
-"651
-[; ;glory.c: 651:                     ValorBag=0;
-[e = _ValorBag -> 0 `i ]
-"652
-[; ;glory.c: 652:                     USART_EnviaMsg("CRITICAL : BAG IS NOT IN PLACE CAN'T APROVE");
-[e ( _USART_EnviaMsg (1 :s 22C ]
-"653
-[; ;glory.c: 653:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"654
-[; ;glory.c: 654:                 }
-}
-[e :U 391 ]
-"655
-[; ;glory.c: 655:                 break;
-[e $U 372  ]
-"656
-[; ;glory.c: 656:             case 'V': case 'v':
-[e :U 392 ]
-[e :U 393 ]
-"657
-[; ;glory.c: 657:                 USART_EnviaMsg(MsgVersion);
-[e ( _USART_EnviaMsg (1 &U _MsgVersion ]
-"658
-[; ;glory.c: 658:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"659
-[; ;glory.c: 659:                 break;
-[e $U 372  ]
-"660
-[; ;glory.c: 660:             case 'B': case 'b':
-[e :U 394 ]
-[e :U 395 ]
-"661
-[; ;glory.c: 661:                 if(ModoTrabajo == 0){
-[e $ ! == _ModoTrabajo -> 0 `i 396  ]
-{
-"662
-[; ;glory.c: 662:                     USART_EnviaMsg(MsgPersonalidad1);
-[e ( _USART_EnviaMsg (1 &U _MsgPersonalidad1 ]
-"663
-[; ;glory.c: 663:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"664
-[; ;glory.c: 664:                 }else{
-}
-[e $U 397  ]
-[e :U 396 ]
-{
-"665
-[; ;glory.c: 665:                     USART_EnviaMsg(MsgPersonalidad2);
-[e ( _USART_EnviaMsg (1 &U _MsgPersonalidad2 ]
-"666
-[; ;glory.c: 666:                     USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"667
-[; ;glory.c: 667:                 }
-}
-[e :U 397 ]
-"668
-[; ;glory.c: 668:                 break;
-[e $U 372  ]
-"669
-[; ;glory.c: 669:             case 'S': case 's':
-[e :U 398 ]
-[e :U 399 ]
-"670
-[; ;glory.c: 670:                 USART_EnviaMsg("STATE : BAG ");
-[e ( _USART_EnviaMsg (1 :s 23C ]
-"671
-[; ;glory.c: 671:                 n=sprintf(txt,"%02u",ValorBag);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 24C _ValorBag ]
-"672
-[; ;glory.c: 672:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"673
-[; ;glory.c: 673:                 USART_EnviaMsg(" BAG_APROVED ");
-[e ( _USART_EnviaMsg (1 :s 25C ]
-"674
-[; ;glory.c: 674:                 n=sprintf(txt,"%01u",EstadoAprobacionBolsa);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 26C _EstadoAprobacionBolsa ]
-"675
-[; ;glory.c: 675:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"676
-[; ;glory.c: 676:                 USART_EnviaMsg(" SHUTTER ");
-[e ( _USART_EnviaMsg (1 :s 27C ]
-"677
-[; ;glory.c: 677:                 n=sprintf(txt,"%02X",ValorStateShutter);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 28C _ValorStateShutter ]
-"678
-[; ;glory.c: 678:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"679
-[; ;glory.c: 679:                 USART_EnviaMsg(" LOCK ");
-[e ( _USART_EnviaMsg (1 :s 29C ]
-"680
-[; ;glory.c: 680:                 n=sprintf(txt,"%01u",ValorStateLock);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 30C _ValorStateLock ]
-"681
-[; ;glory.c: 681:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"682
-[; ;glory.c: 682:                 USART_EnviaMsg(" GATE ");
-[e ( _USART_EnviaMsg (1 :s 31C ]
-"683
-[; ;glory.c: 683:                 n=sprintf(txt,"%01u",ValorStateE);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 32C _ValorStateE ]
-"684
-[; ;glory.c: 684:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"685
-[; ;glory.c: 685:                 USART_EnviaMsg(" 0");
-[e ( _USART_EnviaMsg (1 :s 33C ]
-"686
-[; ;glory.c: 686:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"687
-[; ;glory.c: 687:                 USART_EnviaMsg("STATUS : A 0x");
-[e ( _USART_EnviaMsg (1 :s 34C ]
-"688
-[; ;glory.c: 688:                 n=sprintf(txt,"%02X",PORTA);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 35C -> _PORTA `i ]
-"689
-[; ;glory.c: 689:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"690
-[; ;glory.c: 690:                 USART_EnviaMsg("  B 0x");
-[e ( _USART_EnviaMsg (1 :s 36C ]
-"691
-[; ;glory.c: 691:                 n=sprintf(txt,"%02X",PORTB);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 37C -> _PORTB `i ]
-"692
-[; ;glory.c: 692:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"693
-[; ;glory.c: 693:                 USART_EnviaMsg("  C 0x");
-[e ( _USART_EnviaMsg (1 :s 38C ]
-"694
-[; ;glory.c: 694:                 n=sprintf(txt,"%02X",PORTC);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 39C -> _PORTC `i ]
-"695
-[; ;glory.c: 695:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"696
-[; ;glory.c: 696:                 USART_EnviaMsg("  D 0x");
-[e ( _USART_EnviaMsg (1 :s 40C ]
-"697
-[; ;glory.c: 697:                 n=sprintf(txt,"%02X",PORTD);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 41C -> _PORTD `i ]
-"698
-[; ;glory.c: 698:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"699
-[; ;glory.c: 699:                 USART_EnviaMsg("  BAG_SENSOR 0x");
-[e ( _USART_EnviaMsg (1 :s 42C ]
-"700
-[; ;glory.c: 700:                 n=sprintf(txt,"%02X",ValorBagSensor);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 43C _ValorBagSensor ]
-"701
-[; ;glory.c: 701:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"702
-[; ;glory.c: 702:                 USART_EnviaMsg(" BAG_STATUS 0x");
-[e ( _USART_EnviaMsg (1 :s 44C ]
-"703
-[; ;glory.c: 703:                 n=sprintf(txt,"%02X",ValorBagStatus);
-[e = _n ( _sprintf (1 , (. , &U _txt :s 45C _ValorBagStatus ]
-"704
-[; ;glory.c: 704:                 USART_EnviaMsg(txt);
-[e ( _USART_EnviaMsg (1 &U _txt ]
-"705
-[; ;glory.c: 705:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"706
-[; ;glory.c: 706:                 break;
-[e $U 372  ]
-"707
-[; ;glory.c: 707:             default:
-[e :U 400 ]
-"708
-[; ;glory.c: 708:                 USART_EnviaMsg(MsgAyuda);
-[e ( _USART_EnviaMsg (1 &U _MsgAyuda ]
-"709
-[; ;glory.c: 709:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"710
-[; ;glory.c: 710:                 break;
-[e $U 372  ]
-"711
-[; ;glory.c: 711:         }
-}
-[e $U 372  ]
-[e :U 373 ]
-[e [\ -> _letrain `i , $ -> -> 67 `ui `i 374
- , $ -> -> 99 `ui `i 375
- , $ -> -> 79 `ui `i 377
- , $ -> -> 111 `ui `i 378
- , $ -> -> 85 `ui `i 380
- , $ -> -> 117 `ui `i 381
- , $ -> -> 69 `ui `i 383
- , $ -> -> 101 `ui `i 384
- , $ -> -> 65 `ui `i 388
- , $ -> -> 97 `ui `i 389
- , $ -> -> 86 `ui `i 392
- , $ -> -> 118 `ui `i 393
- , $ -> -> 66 `ui `i 394
- , $ -> -> 98 `ui `i 395
- , $ -> -> 83 `ui `i 398
- , $ -> -> 115 `ui `i 399
- 400 ]
-[e :U 372 ]
-"712
-[; ;glory.c: 712:     }
-}
-[e :U 371 ]
-"715
-[; ;glory.c: 715:     if (TMR0IF && TMR0IE)
-[e $ ! && _TMR0IF _TMR0IE 401  ]
-"716
-[; ;glory.c: 716:     {
-{
-"717
-[; ;glory.c: 717:         TMR0IF=0;
-[e = _TMR0IF -> -> 0 `i `b ]
-"718
-[; ;glory.c: 718:         TMR0H=0x3C;
-[e = _TMR0H -> -> 60 `i `uc ]
-"719
-[; ;glory.c: 719:         TMR0L=0xB0;
-[e = _TMR0L -> -> 176 `i `uc ]
-"720
-[; ;glory.c: 720:         Tiempo0=Tiempo0+100;
-[e = _Tiempo0 + _Tiempo0 -> 100 `i ]
-"723
-[; ;glory.c: 723:         if (PulsoArriba==1)
-[e $ ! == _PulsoArriba -> 1 `i 402  ]
-"724
-[; ;glory.c: 724:         {
-{
-"725
-[; ;glory.c: 725:             LATA4=1;
-[e = _LATA4 -> -> 1 `i `b ]
-"726
-[; ;glory.c: 726:             LATA3=0;
-[e = _LATA3 -> -> 0 `i `b ]
-"727
-[; ;glory.c: 727:             TiempoPulso=TiempoPulso+100;
-[e = _TiempoPulso + _TiempoPulso -> 100 `i ]
-"728
-[; ;glory.c: 728:             if (TiempoPulso>=1200)
-[e $ ! >= _TiempoPulso -> 1200 `i 403  ]
-"729
-[; ;glory.c: 729:             {
-{
-"730
-[; ;glory.c: 730:                 PulsoArriba=0;
-[e = _PulsoArriba -> 0 `i ]
-"731
-[; ;glory.c: 731:                 TiempoPulso=0;
-[e = _TiempoPulso -> 0 `i ]
-"732
-[; ;glory.c: 732:             }
-}
-[e :U 403 ]
-"733
-[; ;glory.c: 733:         }else{
-}
-[e $U 404  ]
-[e :U 402 ]
-{
-"734
-[; ;glory.c: 734:             LATA4=0;
-[e = _LATA4 -> -> 0 `i `b ]
-"735
-[; ;glory.c: 735:             LATA3=0;
-[e = _LATA3 -> -> 0 `i `b ]
-"736
-[; ;glory.c: 736:             TiempoPulso=TiempoPulso+100;
-[e = _TiempoPulso + _TiempoPulso -> 100 `i ]
-"737
-[; ;glory.c: 737:             if (TiempoPulso>=400)
-[e $ ! >= _TiempoPulso -> 400 `i 405  ]
-"738
-[; ;glory.c: 738:             {
-{
-"739
-[; ;glory.c: 739:                 PulsoArriba=1;
-[e = _PulsoArriba -> 1 `i ]
-"740
-[; ;glory.c: 740:                 TiempoPulso=0;
-[e = _TiempoPulso -> 0 `i ]
-"741
-[; ;glory.c: 741:             }
-}
-[e :U 405 ]
-"742
-[; ;glory.c: 742:         }
-}
-[e :U 404 ]
-"743
-[; ;glory.c: 743:         if (Tiempo0>=10500)
-[e $ ! >= _Tiempo0 -> 10500 `i 406  ]
-"744
-[; ;glory.c: 744:         {
-{
-"745
-[; ;glory.c: 745:             ValorStateLock=0;
-[e = _ValorStateLock -> 0 `i ]
-"746
-[; ;glory.c: 746:             Tiempo0=0;
-[e = _Tiempo0 -> 0 `i ]
-"747
-[; ;glory.c: 747:             TMR0IE=0;
-[e = _TMR0IE -> -> 0 `i `b ]
-"748
-[; ;glory.c: 748:             LATA2=0;
-[e = _LATA2 -> -> 0 `i `b ]
-"750
-[; ;glory.c: 750:             LATA1=0;
-[e = _LATA1 -> -> 0 `i `b ]
-"751
-[; ;glory.c: 751:             LATA0=0;
-[e = _LATA0 -> -> 0 `i `b ]
-"753
-[; ;glory.c: 753:             LATA4=0;
-[e = _LATA4 -> -> 0 `i `b ]
-"754
-[; ;glory.c: 754:             LATA3=0;
-[e = _LATA3 -> -> 0 `i `b ]
-"755
-[; ;glory.c: 755:             USART_EnviaMsg("CRITICAL: timeout waiting for door, locked");
-[e ( _USART_EnviaMsg (1 :s 46C ]
-"756
-[; ;glory.c: 756:             USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"757
-[; ;glory.c: 757:         }
-}
-[e :U 406 ]
-"758
-[; ;glory.c: 758:     }
-}
-[e :U 401 ]
-"760
-[; ;glory.c: 760:     if (TMR1IF && TMR1IE)
-[e $ ! && _TMR1IF _TMR1IE 407  ]
-"761
-[; ;glory.c: 761:     {
-{
-"762
-[; ;glory.c: 762:         TMR1IF=0;
-[e = _TMR1IF -> -> 0 `i `b ]
-"763
-[; ;glory.c: 763:         TMR1H=0xB1;
-[e = _TMR1H -> -> 177 `i `uc ]
-"764
-[; ;glory.c: 764:         TMR1L=0xE0;
-[e = _TMR1L -> -> 224 `i `uc ]
-"765
-[; ;glory.c: 765:         Tiempo1=Tiempo1+10;
-[e = _Tiempo1 + _Tiempo1 -> 10 `i ]
-"768
-[; ;glory.c: 768:         if (Tiempo1>=3500)
-[e $ ! >= _Tiempo1 -> 3500 `i 408  ]
-"769
-[; ;glory.c: 769:         {
-{
-"770
-[; ;glory.c: 770:             Tiempo1=0;
-[e = _Tiempo1 -> 0 `i ]
-"771
-[; ;glory.c: 771:             TMR1IE=0;
-[e = _TMR1IE -> -> 0 `i `b ]
-"772
-[; ;glory.c: 772:             LATC1=0;
-[e = _LATC1 -> -> 0 `i `b ]
-"774
-[; ;glory.c: 774:             LATE0=0;
-[e = _LATE0 -> -> 0 `i `b ]
-"775
-[; ;glory.c: 775:             LATA5=0;
-[e = _LATA5 -> -> 0 `i `b ]
-"776
-[; ;glory.c: 776:             if (ValorStateShutter==3)
-[e $ ! == _ValorStateShutter -> 3 `i 409  ]
-"777
-[; ;glory.c: 777:             {
-{
-"778
-[; ;glory.c: 778:                 USART_EnviaMsg("CLOSED");
-[e ( _USART_EnviaMsg (1 :s 47C ]
-"779
-[; ;glory.c: 779:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"780
-[; ;glory.c: 780:                 ValorStateShutter=9;
-[e = _ValorStateShutter -> 9 `i ]
-"781
-[; ;glory.c: 781:             }
-}
-[e :U 409 ]
-"782
-[; ;glory.c: 782:             if (ValorStateShutter==2)
-[e $ ! == _ValorStateShutter -> 2 `i 410  ]
-"783
-[; ;glory.c: 783:             {
-{
-"784
-[; ;glory.c: 784:                 USART_EnviaMsg("OPEN");
-[e ( _USART_EnviaMsg (1 :s 48C ]
-"785
-[; ;glory.c: 785:                 USART_EnviaMsg(CRLF);
-[e ( _USART_EnviaMsg (1 &U _CRLF ]
-"786
-[; ;glory.c: 786:                 ValorStateShutter=8;
+[; ;glory.c: 609:                 ValorStateShutter=8;
 [e = _ValorStateShutter -> 8 `i ]
-"787
-[; ;glory.c: 787:             }
+"610
+[; ;glory.c: 610:             }
 }
-[e :U 410 ]
-"788
-[; ;glory.c: 788:         }
+[e :U 364 ]
+"611
+[; ;glory.c: 611:         }
 }
-[e :U 408 ]
-"789
-[; ;glory.c: 789:     }
+[e :U 362 ]
+"612
+[; ;glory.c: 612:     }
 }
-[e :U 407 ]
-"792
-[; ;glory.c: 792:     if (TMR2IF && TMR2IE)
-[e $ ! && _TMR2IF _TMR2IE 411  ]
-"793
-[; ;glory.c: 793:     {
+[e :U 361 ]
+"615
+[; ;glory.c: 615:     if (TMR2IF && TMR2IE)
+[e $ ! && _TMR2IF _TMR2IE 365  ]
+"616
+[; ;glory.c: 616:     {
 {
-"794
-[; ;glory.c: 794:         TMR2IF=0;
+"617
+[; ;glory.c: 617:         TMR2IF=0;
 [e = _TMR2IF -> -> 0 `i `b ]
-"795
-[; ;glory.c: 795:         Tiempo2=Tiempo2+10;
+"618
+[; ;glory.c: 618:         Tiempo2=Tiempo2+10;
 [e = _Tiempo2 + _Tiempo2 -> 10 `i ]
-"796
-[; ;glory.c: 796:         if (PulsoArribaBuzzer==1)
-[e $ ! == _PulsoArribaBuzzer -> 1 `i 412  ]
-"797
-[; ;glory.c: 797:         {
+"619
+[; ;glory.c: 619:         if (PulsoArribaBuzzer==1)
+[e $ ! == _PulsoArribaBuzzer -> 1 `i 366  ]
+"620
+[; ;glory.c: 620:         {
 {
-"798
-[; ;glory.c: 798:             LATE2=1;
+"621
+[; ;glory.c: 621:             LATE2=1;
 [e = _LATE2 -> -> 1 `i `b ]
-"799
-[; ;glory.c: 799:             LATE1=0;
+"622
+[; ;glory.c: 622:             LATE1=0;
 [e = _LATE1 -> -> 0 `i `b ]
-"800
-[; ;glory.c: 800:             TiempoPulsoBuzzer=TiempoPulsoBuzzer+10;
+"623
+[; ;glory.c: 623:             TiempoPulsoBuzzer=TiempoPulsoBuzzer+10;
 [e = _TiempoPulsoBuzzer + _TiempoPulsoBuzzer -> 10 `i ]
-"801
-[; ;glory.c: 801:             if (TiempoPulsoBuzzer>=140)
-[e $ ! >= _TiempoPulsoBuzzer -> 140 `i 413  ]
-"802
-[; ;glory.c: 802:             {
+"624
+[; ;glory.c: 624:             if (TiempoPulsoBuzzer>=140)
+[e $ ! >= _TiempoPulsoBuzzer -> 140 `i 367  ]
+"625
+[; ;glory.c: 625:             {
 {
-"803
-[; ;glory.c: 803:                 PulsoArribaBuzzer=0;
+"626
+[; ;glory.c: 626:                 PulsoArribaBuzzer=0;
 [e = _PulsoArribaBuzzer -> 0 `i ]
-"804
-[; ;glory.c: 804:                 TiempoPulsoBuzzer=0;
+"627
+[; ;glory.c: 627:                 TiempoPulsoBuzzer=0;
 [e = _TiempoPulsoBuzzer -> 0 `i ]
-"805
-[; ;glory.c: 805:             }
+"628
+[; ;glory.c: 628:             }
 }
-[e :U 413 ]
-"806
-[; ;glory.c: 806:         }else{
+[e :U 367 ]
+"629
+[; ;glory.c: 629:         }else{
 }
-[e $U 414  ]
-[e :U 412 ]
+[e $U 368  ]
+[e :U 366 ]
 {
-"807
-[; ;glory.c: 807:             LATE2=0;
+"630
+[; ;glory.c: 630:             LATE2=0;
 [e = _LATE2 -> -> 0 `i `b ]
-"808
-[; ;glory.c: 808:             LATE1=0;
+"631
+[; ;glory.c: 631:             LATE1=0;
 [e = _LATE1 -> -> 0 `i `b ]
-"809
-[; ;glory.c: 809:             TiempoPulsoBuzzer=TiempoPulsoBuzzer+10;
+"632
+[; ;glory.c: 632:             TiempoPulsoBuzzer=TiempoPulsoBuzzer+10;
 [e = _TiempoPulsoBuzzer + _TiempoPulsoBuzzer -> 10 `i ]
-"810
-[; ;glory.c: 810:             if (TiempoPulsoBuzzer>=1920)
-[e $ ! >= _TiempoPulsoBuzzer -> 1920 `i 415  ]
-"811
-[; ;glory.c: 811:             {
+"633
+[; ;glory.c: 633:             if (TiempoPulsoBuzzer>=1920)
+[e $ ! >= _TiempoPulsoBuzzer -> 1920 `i 369  ]
+"634
+[; ;glory.c: 634:             {
 {
-"812
-[; ;glory.c: 812:                 PulsoArribaBuzzer=1;
+"635
+[; ;glory.c: 635:                 PulsoArribaBuzzer=1;
 [e = _PulsoArribaBuzzer -> 1 `i ]
-"813
-[; ;glory.c: 813:                 TiempoPulsoBuzzer=0;
+"636
+[; ;glory.c: 636:                 TiempoPulsoBuzzer=0;
 [e = _TiempoPulsoBuzzer -> 0 `i ]
-"814
-[; ;glory.c: 814:             }
+"637
+[; ;glory.c: 637:             }
 }
-[e :U 415 ]
-"815
-[; ;glory.c: 815:         }
+[e :U 369 ]
+"638
+[; ;glory.c: 638:         }
 }
-[e :U 414 ]
-"816
-[; ;glory.c: 816:     }
+[e :U 368 ]
+"639
+[; ;glory.c: 639:     }
 }
-[e :U 411 ]
-"817
-[; ;glory.c: 817: }
-[e :UE 370 ]
+[e :U 365 ]
+"640
+[; ;glory.c: 640: }
+[e :UE 324 ]
 }
-"819
-[; ;glory.c: 819: void USART_EnviaMsg (char *msgout)
+"642
+[; ;glory.c: 642: void USART_EnviaMsg (char *msgout)
 [v _USART_EnviaMsg `(v ~T0 @X0 1 ef1`*uc ]
-"820
-[; ;glory.c: 820: {
+"643
+[; ;glory.c: 643: {
 {
 [e :U _USART_EnviaMsg ]
-"819
-[; ;glory.c: 819: void USART_EnviaMsg (char *msgout)
+"642
+[; ;glory.c: 642: void USART_EnviaMsg (char *msgout)
 [v _msgout `*uc ~T0 @X0 1 r1 ]
-"820
-[; ;glory.c: 820: {
+"643
+[; ;glory.c: 643: {
 [f ]
-"821
-[; ;glory.c: 821:     char letraout;
+"644
+[; ;glory.c: 644:     char letraout;
 [v _letraout `uc ~T0 @X0 1 a ]
-"822
-[; ;glory.c: 822:     while(*msgout != 0x00)
-[e $U 417  ]
-[e :U 418 ]
-"823
-[; ;glory.c: 823:     {
+"645
+[; ;glory.c: 645:     while(*msgout != 0x00)
+[e $U 371  ]
+[e :U 372 ]
+"646
+[; ;glory.c: 646:     {
 {
-"824
-[; ;glory.c: 824:         letraout=*msgout;
+"647
+[; ;glory.c: 647:         letraout=*msgout;
 [e = _letraout *U _msgout ]
-"825
-[; ;glory.c: 825:         msgout++;
+"648
+[; ;glory.c: 648:         msgout++;
 [e ++ _msgout * -> -> 1 `i `x -> -> # *U _msgout `i `x ]
-"826
-[; ;glory.c: 826:         while (TXIF==0){}
-[e $U 420  ]
-[e :U 421 ]
+"649
+[; ;glory.c: 649:         while (TXIF==0){}
+[e $U 374  ]
+[e :U 375 ]
 {
 }
-[e :U 420 ]
-[e $ == -> _TXIF `i -> 0 `i 421  ]
-[e :U 422 ]
-"827
-[; ;glory.c: 827:         TXREG=letraout;
+[e :U 374 ]
+[e $ == -> _TXIF `i -> 0 `i 375  ]
+[e :U 376 ]
+"650
+[; ;glory.c: 650:         TXREG=letraout;
 [e = _TXREG -> _letraout `uc ]
-"828
-[; ;glory.c: 828:     }
+"651
+[; ;glory.c: 651:     }
 }
-[e :U 417 ]
-"822
-[; ;glory.c: 822:     while(*msgout != 0x00)
-[e $ != -> *U _msgout `i -> 0 `i 418  ]
-[e :U 419 ]
-"829
-[; ;glory.c: 829: }
-[e :UE 416 ]
+[e :U 371 ]
+"645
+[; ;glory.c: 645:     while(*msgout != 0x00)
+[e $ != -> *U _msgout `i -> 0 `i 372  ]
+[e :U 373 ]
+"652
+[; ;glory.c: 652: }
+[e :UE 370 ]
 }
 [p f _sprintf 10519556 ]
-[a 44C 32 66 65 71 95 83 84 65 84 85 83 32 48 120 0 ]
-[a 42C 32 32 66 65 71 95 83 69 78 83 79 82 32 48 120 0 ]
-[a 40C 32 32 68 32 48 120 0 ]
-[a 38C 32 32 67 32 48 120 0 ]
-[a 36C 32 32 66 32 48 120 0 ]
-[a 34C 83 84 65 84 85 83 32 58 32 65 32 48 120 0 ]
-[a 24C 37 48 50 117 0 ]
-[a 26C 37 48 49 117 0 ]
-[a 30C 37 48 49 117 0 ]
-[a 32C 37 48 49 117 0 ]
-[a 5C 77 111 100 111 32 105 110 100 105 114 101 99 116 111 0 ]
-[a 4C 77 111 100 111 68 105 114 101 99 116 111 32 99 111 110 102 105 103 117 114 97 100 111 0 ]
-[a 6C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 111 112 101 110 0 ]
-[a 8C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 99 108 111 115 101 100 0 ]
-[a 20C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 117 110 108 111 99 107 101 100 0 ]
-[a 7C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 108 111 99 107 101 100 0 ]
-[a 9C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 108 111 99 107 101 100 0 ]
-[a 46C 67 82 73 84 73 67 65 76 58 32 116 105 109 101 111 117 116 32 119 97 105 116 105 110 103 32 102 111 114 32 100 111 111 114 44 32 108 111 99 107 101 100 0 ]
-[a 28C 37 48 50 88 0 ]
-[a 35C 37 48 50 88 0 ]
-[a 37C 37 48 50 88 0 ]
-[a 39C 37 48 50 88 0 ]
-[a 41C 37 48 50 88 0 ]
-[a 43C 37 48 50 88 0 ]
-[a 45C 37 48 50 88 0 ]
-[a 21C 87 65 82 78 73 78 71 32 58 32 66 65 71 32 73 78 32 73 84 0 ]
-[a 18C 83 84 65 82 84 32 79 80 69 78 0 ]
-[a 48C 79 80 69 78 0 ]
-[a 22C 67 82 73 84 73 67 65 76 32 58 32 66 65 71 32 73 83 32 78 79 84 32 73 78 32 80 76 65 67 69 32 67 65 78 39 84 32 65 80 82 79 86 69 0 ]
-[a 2C 83 84 65 82 84 32 67 76 79 83 69 0 ]
-[a 16C 83 84 65 82 84 32 67 76 79 83 69 0 ]
-[a 11C 66 65 71 32 73 78 80 76 65 67 69 0 ]
-[a 10C 66 65 71 32 82 69 77 79 86 69 68 0 ]
-[a 15C 66 65 71 32 82 69 77 79 86 69 68 0 ]
-[a 12C 67 82 73 84 73 67 65 76 32 58 32 66 65 71 32 80 76 65 67 69 68 32 67 76 79 83 69 68 0 ]
-[a 47C 67 76 79 83 69 68 0 ]
-[a 19C 87 65 82 78 73 78 71 32 79 80 69 78 32 83 69 78 83 79 82 32 68 73 83 65 66 76 69 68 0 ]
-[a 3C 87 65 82 78 73 78 71 32 67 76 79 83 69 32 83 69 78 83 79 82 32 68 73 83 65 66 76 69 68 0 ]
-[a 17C 87 65 82 78 73 78 71 32 67 76 79 83 69 32 83 69 78 83 79 82 32 68 73 83 65 66 76 69 68 0 ]
-[a 14C 67 82 73 84 73 67 65 76 32 58 32 66 65 71 32 66 65 71 95 85 78 76 79 67 75 69 68 95 79 80 69 78 32 48 120 48 48 32 48 120 48 50 0 ]
-[a 13C 67 82 73 84 73 67 65 76 32 58 32 66 65 71 32 66 65 71 95 83 84 65 84 69 95 73 78 80 76 65 67 69 32 48 120 48 48 32 48 120 48 49 0 ]
-[a 33C 32 48 0 ]
+[a 25C 37 48 50 117 0 ]
+[a 29C 37 48 49 117 0 ]
+[a 31C 37 48 49 117 0 ]
+[a 13C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 111 112 101 110 0 ]
+[a 15C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 99 108 111 115 101 100 0 ]
+[a 21C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 117 110 108 111 99 107 101 100 0 ]
+[a 14C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 108 111 99 107 101 100 0 ]
+[a 16C 67 82 73 84 73 67 65 76 58 32 100 111 111 114 32 108 111 99 107 101 100 0 ]
+[a 32C 67 82 73 84 73 67 65 76 58 32 116 105 109 101 111 117 116 32 119 97 105 116 105 110 103 32 102 111 114 32 100 111 111 114 44 32 108 111 99 107 101 100 0 ]
+[a 27C 37 48 50 88 0 ]
+[a 22C 87 65 82 78 73 78 71 32 58 32 66 65 71 32 73 78 32 73 84 0 ]
+[a 19C 83 84 65 82 84 32 79 80 69 78 0 ]
+[a 34C 79 80 69 78 0 ]
+[a 23C 67 82 73 84 73 67 65 76 32 58 32 66 65 71 32 73 83 32 78 79 84 32 73 78 32 80 76 65 67 69 32 67 65 78 39 84 32 65 80 82 79 86 69 0 ]
+[a 11C 83 84 65 82 84 32 67 76 79 83 69 0 ]
+[a 17C 83 84 65 82 84 32 67 76 79 83 69 0 ]
+[a 7C 32 32 45 70 111 114 32 66 82 73 78 75 83 32 67 72 73 76 69 0 ]
+[a 33C 67 76 79 83 69 68 0 ]
+[a 20C 87 65 82 78 73 78 71 32 79 80 69 78 32 83 69 78 83 79 82 32 68 73 83 65 66 76 69 68 0 ]
+[a 12C 87 65 82 78 73 78 71 32 67 76 79 83 69 32 83 69 78 83 79 82 32 68 73 83 65 66 76 69 68 0 ]
+[a 18C 87 65 82 78 73 78 71 32 67 76 79 83 69 32 83 69 78 83 79 82 32 68 73 83 65 66 76 69 68 0 ]
+[a 5C 32 32 45 66 121 32 80 69 82 77 65 81 85 73 77 32 83 80 65 0 ]
+[a 9C 32 32 32 45 86 101 114 115 105 111 110 58 32 50 46 51 46 49 0 ]
 [a 1C 46 0 ]
-[a 27C 32 83 72 85 84 84 69 82 32 0 ]
-[a 29C 32 76 79 67 75 32 0 ]
-[a 23C 83 84 65 84 69 32 58 32 66 65 71 32 0 ]
-[a 31C 32 71 65 84 69 32 0 ]
-[a 25C 32 66 65 71 95 65 80 82 79 86 69 68 32 0 ]
+[a 4C 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 0 ]
+[a 10C 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 0 ]
+[a 3C 32 32 32 73 79 66 79 65 82 68 32 83 67 82 69 87 32 33 33 33 0 ]
+[a 26C 32 83 72 85 84 84 69 82 32 0 ]
+[a 28C 32 76 79 67 75 32 0 ]
+[a 24C 83 84 65 84 69 32 58 32 66 65 71 32 0 ]
+[a 30C 32 71 65 84 69 32 0 ]
+[a 2C 32 0 ]
+[a 6C 32 0 ]
+[a 8C 32 0 ]

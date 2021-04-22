@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/ioboard_escrow-master.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=ioboard_escrow-master.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=ioboardescrow-master/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/ioboard_pq.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=ioboard_pq.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=ioboardpq/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/ioboardescrow-master/bin
+makeDirectory ${TMPDIR}/ioboardpq/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/ioboardescrow-master.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/ioboardpq.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/ioboardescrow-master.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/ioboardpq.tar *
 checkReturnCode
 
 # Cleanup
