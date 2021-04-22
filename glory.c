@@ -4,6 +4,7 @@
 // Author: Jonathan Orrego
 // V2.0.0_26/11/2019: Versi�n inicial.
 // V2.0.1_24/01/2020: Le alargu� el tiempo de movimiento al pist�n de J21 medido por Timer1.
+// V2.3 Se modifico los sensores de la bolsa para 2 sensores J13 y J6
 //***********************************************************************************************
 //***********************************************************************************************
 
@@ -104,7 +105,9 @@ void main(void) {
     TMR0IF=0;       //Limpio flag.
     TMR0IE=0;       //Apago la interrupci�n del Timer0.
     //Configuraci�n del Timer1 para interrupci�n cada 10ms...
-    T1CON=0x01;
+    T1CON=0x01; // Set the timer to prescaler 1:1 (fastest), clock source instruction clock
+                  //    and pick timer2 clock in as source (not Secondary Oscillator)
+                  //    we also select synchronization, no effect as we run of FOSC here.
     TMR1H=0xB1; //Valor precargado.
     TMR1L=0xE0; //Valor precargado.
     //Configuraci�n del Timer2 para interrupci�n cada 10ms...  (error de 25us)
@@ -177,7 +180,7 @@ void main(void) {
     USART_EnviaMsg("WARNING CLOSE SENSOR DISABLED");
     USART_EnviaMsg(CRLF);
     ModoTrabajo = 0;
-    if ((PORTBbits.RB5==0) ) //J1 Si J1 tiene Jumper se configura modo directo    && (J1==1)
+   /* if ((PORTBbits.RB5==0) ) //J1 Si J1 tiene Jumper se configura modo directo    && (J1==1)
         {
             ModoTrabajo = 1;
             USART_EnviaMsg("ModoDirecto configurado");
@@ -186,7 +189,7 @@ void main(void) {
     else {
         USART_EnviaMsg("Modo indirecto");
         USART_EnviaMsg(CRLF);
-    }
+    }*/
     while(1)
     {
             //Lectura de entradas...
@@ -259,32 +262,7 @@ void main(void) {
                 }
             }
             
-            //Armo Counter...
-           /* if (Counter != 1 && J2 == 1 && J9 == 0)
-            {
-                Counter = 1;
-                USART_EnviaMsg("CRITICAL: COUNTER REMOVED 1");
-                USART_EnviaMsg(CRLF);
-            }
-            if (Counter != 2 && J2 == 0 && J9 == 1)
-            {
-                Counter = 2;
-                USART_EnviaMsg("CRITICAL: COUNTER REMOVED 2");
-                USART_EnviaMsg(CRLF);
-            }
-            if (Counter != 3 && J2 == 1 && J9 == 1)
-            {
-                Counter = 3;
-                USART_EnviaMsg("CRITICAL: COUNTER REMOVED 3");
-                USART_EnviaMsg(CRLF);
-            }
-            if (Counter != 0 && J2 == 0 && J9 == 0)
-            {
-                Counter = 0;
-                USART_EnviaMsg("CRITICAL: COUNTER PLACED");
-                USART_EnviaMsg(CRLF);
-            }*/
-
+        
 
         if (ModoTrabajo == 0)   // Si modoDirect es false, usamos modo 4 sensores para detectar bolsa
         {
@@ -355,7 +333,7 @@ void main(void) {
             
             
                            
-                                   //Buzzer...
+            //Buzzer...
             if ((ValorBag != 2 || J6 != 0) && (ValorStateLock == 0)) //Para que no suene debe estar BAG INPLACE y el J6 puesto (el comando U tambi�n lo hace sonar).
             {
                 LATC2 = 1;  //Enable.
@@ -383,165 +361,8 @@ void main(void) {
             StartUp = 0;
       
             
-        } else { /// Si el jumper en J1 esta colocado al bootear
-
-            ///////////////////////////////////////////////////////////////////////////
-            //Armo State Gate E...
-            ValorStateE = (J8 * 4) + (J9 * 2) + J2;
-            //Armo Bag_Sensor...
-            ValorBagSensor = (J5 * 4) + (J6 * 2) + J12;  // Aca cambio J13 por J12
-            //Armo ValorBagStatus...
-            if (J5 == 1 && J6 == 1 && J12 == 1)     // Ningun sensor tapado
-                ValorBagStatus = 2;
-            if (J5 == 0 && J6 == 1 && J12 == 1)     // Sensor A tapado
-                ValorBagStatus = 3;
-            if (J5 == 0 && J6 == 0 && J12 == 1)     // Sensor A y B tapados
-                ValorBagStatus = 5;
-            if (J5 == 0 && J6 == 0 && J12 == 0)     // Sensor A, B y L tapados
-                ValorBagStatus = 6;
-            if (J5 == 0 && J6 == 1 && J12 == 0)     // Sensor A y L tapados
-                ValorBagStatus = 4;
-            if (J5 == 1 && J6 == 0 && J12 == 0)     // Sensor B y L tapados
-                ValorBagStatus = 1;
-            if (J5 == 1 && J6 == 0 && J12 == 1)     // Sensor B tapado
-                ValorBagStatus = 0;
-            if (J5 == 1 && J6 == 1 && J12 == 0)     // Sensor L tapado
-                ValorBagStatus = 0;
-            
-
-            //Detecto estado de la bolsa...
-            if (ValorBag == 99) //Estado inicial al encender.
-            {
-                if (J5 == 1 && J6 == 0 && J12 == 0) //Presupongo Bag Inplace en este estado inicial si los sensores estan bien, pero no apruebo la bolsa.
-                {
-                    ValorBag = 2;
-                }
-                else
-                {
-                    ValorBag = 0;
-                }
-            }
-            if (ValorBag == 0) //Error.
-            {
-                if (J5 == 1 && J6 == 1 && J12 == 1)
-                {
-                    ValorBag = 1;              //Avanza: Error -> Removed.
-                    EstadoAprobacionBolsa = 0; //Se desaprueba la bolsa.
-                    if (StartUp == 0)
-                    {
-                        USART_EnviaMsg("BAG REMOVED");
-                        USART_EnviaMsg(CRLF);
-                    }
-                }
-            }
-            if (ValorBag == 1) //Removed.
-            {
-                if (J5 == 1 && J6 == 1 && J12 == 1)
-                    ValorBag = 1; //Quieta: Removed.
-                if (J6 == 0 && J12 == 1) //Sensor B tapado. Se esta colocando la bolsa
-                {
-                    ValorBag = 6;
-                }
-                if (J5 == 1 && J6 == 1 && J12 == 0)
-                    ValorBag = 0; //Sensor L tapado, A y B destapados, error
-            }
-            
-            if (ValorBag == 6) //Sensor B tapado
-            {
-                if (J5 == 1 && J6 == 0 && J12 == 0)
-                {
-                    ValorBag = 2; //Avanza: Sensor A destapado, B y L tapados -> INPLACE
-                    USART_EnviaMsg("BAG INPLACE");
-                    USART_EnviaMsg(CRLF);
-                }
-                    if (J6 == 0 && J12 == 1)
-                    ValorBag = 6; //Quieta: Sensor B tapado.
-                if (J5 == 0 && J6 == 1 && J12 == 1)
-                    ValorBag = 6; //Quieta: Sensor A tapado, B y L destapados 
-                if (J5 == 1 && J6 == 1 && J12 == 1)
-                    ValorBag = 1; //Retrocede: Sensor A , B y L destapados -> REMOVED
-                if (J5 == 0 && J6 == 0 && J12 == 0)
-                {
-                    ValorBag = 0; //Error: Sensor A, B y L tapados, bolsa colocada cerrada
-                    USART_EnviaMsg("CRITICAL : BAG PLACED CLOSED"); //CRITICAL : BAG PLACED CLOSED
-                    USART_EnviaMsg(CRLF);
-                }
-            }
-            
-            if (ValorBag == 2) //Sensor B,L tapados.
-            {
-                if (J5 == 0 && J6 == 0 && J12 == 0)
-                    ValorBag = 4; //Avanza: Sensor A, B,C tapados -> Bolsa Cerrada o llena
-                if (J5 == 1 && J6 == 0 && J12 == 0)
-                    ValorBag = 2; //Quieta: Sensor B,L tapados.
-                if (J6 == 1)      //Error: Sensor B destapado.
-                {
-                    ValorBag = 0;
-                    USART_EnviaMsg("CRITICAL : BAG BAG_STATE_INPLACE 0x00 0x01"); //CRITICAL : BAG BAG_STATE_INPLACE
-                    USART_EnviaMsg(CRLF);
-                }
-                if (J12 == 1) //Error: Sensor C destapado.
-                {
-                    ValorBag = 0;
-                    USART_EnviaMsg("CRITICAL : BAG BAG_UNLOCKED_OPEN 0x00 0x02"); //CRITICAL : BAG BAG_STATE_INPLACE
-                    USART_EnviaMsg(CRLF);
-                }
-            }
-            if (ValorBag == 4) //Sensor A,B,L tapados. Bolsa cerrada o llena
-            {
-                if (J5 == 0 && J6 == 0 && J12 == 1)
-                    ValorBag = 5; //Avanza: Sensor A,B tapados -> Se destrabo la bolsa
-                if (J5 == 0 && J6 == 0 && J12 == 0)
-                    ValorBag = 4; //Quieta: Sensor A,B,L tapados. Bolsa trabada
-                if (J5 == 0 && J6 == 1 && J12 == 1)
-                    ValorBag = 5; //Avanza: Sensor A tapado. Bolsa siendo retirada
-                if (J5 == 1 && J6 == 0 && J12 == 0)
-                    ValorBag = 2; //Retrocede: Sensor A,B,C tapados -> Sensor B,C tapados.
-                
-            }
-            if (ValorBag == 5) //Sensor A,B tapados o A tapado
-            {
-                if (J5 == 0 && J6 == 1 && J12 == 1)
-                    ValorBag = 5; //Continua 4: Sensor A,B tapados -> Sensor A tapado.
-                if (J5 == 0 && J6 == 0 && J12 == 1)
-                    ValorBag = 5; //Quieta: Sensor A,B tapados.
-                if (J5 == 0 && J6 == 0 && J12 == 0)
-                    ValorBag = 0; //Error: Sensor A,B tapados -> Sensor A,B,C tapados, situacion ilegal, da error.
-                if (J5 == 1 && J6 == 1 && J12 == 1)      //Error: Sensor A destapado.
-                {
-                    ValorBag = 1;
-                    USART_EnviaMsg("BAG REMOVED");
-                    USART_EnviaMsg(CRLF);
-                }
-            }
-            //Buzzer...
-            if (ValorBag != 2 && (ValorStateLock == 0)) //Para que no suene debe estar BAG INPLACE (el comando U tambi�n lo hace sonar).
-            {
-                LATC2 = 1;  //Enable.
-                TMR2IF = 0; //Limpio flag.
-                TMR2IE = 1; //Prendo la interrupci�n del Timer2.
-            }
-            else
-            {
-                if (ValorStateLock == 1) //Con la cerradura unlocked suena todo el tiempo.
-                {
-                    LATC2 = 1;  //Enable.
-                    LATE2 = 1;  //Pin 1 arriba.
-                    LATE1 = 0;  //Pin 2 abajo.
-                    TMR2IF = 0; //Limpio flag.
-                    TMR2IE = 0; //Apago la interrupci�n del Timer2.
-                }
-                else
-                {
-                    LATC2 = 0;  //Disable.
-                    LATE2 = 0;  //Pin 1 abajo.
-                    LATE1 = 0;  //Pin 2 abajo.
-                    TMR2IE = 0; //Apago la interrupci�n del Timer2.
-                }
-            }
-            StartUp = 0;
-        }
-    }    
+        } 
+    }   
 }
 
 //***********************************************************************************************
@@ -670,9 +491,9 @@ void __interrupt() isr (void)
                 USART_EnviaMsg("STATE : BAG ");
                 n=sprintf(txt,"%02u",ValorBag); //Convierto a string el ValorBag.
                 USART_EnviaMsg(txt);
-                USART_EnviaMsg(" BAG_APROVED ");
+                /*USART_EnviaMsg(" BAG_APROVED ");
                 n=sprintf(txt,"%01u",EstadoAprobacionBolsa); //Convierto a string el ValorBag.
-                USART_EnviaMsg(txt);
+                USART_EnviaMsg(txt);*/
                 USART_EnviaMsg(" SHUTTER ");
                 n=sprintf(txt,"%02X",ValorStateShutter); //Convierto a hexa el shutter.
                 USART_EnviaMsg(txt);
@@ -681,26 +502,6 @@ void __interrupt() isr (void)
                 USART_EnviaMsg(txt);
                 USART_EnviaMsg(" GATE ");
                 n=sprintf(txt,"%01u",ValorStateE); //Convierto a string el State E.
-                USART_EnviaMsg(txt);
-                USART_EnviaMsg(" 0");
-                USART_EnviaMsg(CRLF);
-                USART_EnviaMsg("STATUS : A 0x");
-                n=sprintf(txt,"%02X",PORTA); //Convierto a hexa el PortA.
-                USART_EnviaMsg(txt);
-                USART_EnviaMsg("  B 0x");
-                n=sprintf(txt,"%02X",PORTB); //Convierto a hexa el PortB.
-                USART_EnviaMsg(txt);
-                USART_EnviaMsg("  C 0x");
-                n=sprintf(txt,"%02X",PORTC); //Convierto a hexa el PortC.
-                USART_EnviaMsg(txt);
-                USART_EnviaMsg("  D 0x");
-                n=sprintf(txt,"%02X",PORTD); //Convierto a hexa el PortD.
-                USART_EnviaMsg(txt);
-                USART_EnviaMsg("  BAG_SENSOR 0x");
-                n=sprintf(txt,"%02X",ValorBagSensor); //Convierto a hexa el PortD.
-                USART_EnviaMsg(txt);
-                USART_EnviaMsg(" BAG_STATUS 0x");
-                n=sprintf(txt,"%02X",ValorBagStatus); //Convierto a hexa el PortD.
                 USART_EnviaMsg(txt);
                 USART_EnviaMsg(CRLF);
                 break;
@@ -763,9 +564,10 @@ void __interrupt() isr (void)
         TMR1H=0xB1;     //Vuelvo a precargar.
         TMR1L=0xE0;     //Vuelvo a precargar.
         Tiempo1=Tiempo1+10;
+        
 
-        //if (Tiempo1>=1720)   //La placa acciona 1.72segs
-        if (Tiempo1>=3500)   //Acciono 3,5 segs siguiendo el video que mando Sebas que parece tardar algo de 2.5
+        if (Tiempo1>=2020)   //La placa acciona 1.72segs 2050
+        //if (Tiempo1>=3500)   //Acciono 3,5 segs siguiendo el video que mando Sebas que parece tardar algo de 2.5
         {
             Tiempo1=0;
             TMR1IE=0;   //Apago el Timer1.
